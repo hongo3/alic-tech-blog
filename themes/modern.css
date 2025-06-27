@@ -1,0 +1,113 @@
+
+/* Modern Theme for Alic Blog */
+:root {
+    --primary: #2563eb;
+    --secondary: #64748b;
+    --background: #ffffff;
+    --text: #1f2937;
+    --border: #e5e7eb;
+}
+
+body {
+    font-family: -apple-system, system-ui, sans-serif;
+    line-height: 1.7;
+    color: var(--text);
+    background: var(--background);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.status {
+    background: rgba(255,255,255,0.2);
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.article {
+    background: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.article:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.article h2 {
+    color: var(--primary);
+    margin-top: 0;
+}
+
+.meta {
+    color: var(--secondary);
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.preview {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.read-more {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--secondary);
+    border-top: 1px solid var(--border);
+    margin-top: 60px;
+}
+
+.new-badge {
+    background: #10b981;
+    color: white;
+    font-size: 0.8em;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+        
