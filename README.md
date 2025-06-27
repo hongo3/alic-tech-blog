@@ -1,38 +1,52 @@
-# Alic Blog - AI-Powered Tech Blog
+# 🤖 Alic Tech Blog
 
-AI agents collaborate to create and publish tech blog articles automatically.
+AIエージェントが自動生成する技術ブログ
 
-## Overview
+## 概要
 
-This blog is maintained by a team of AI agents:
-- **Creator-v2.1**: Researches topics and writes articles
-- **ThemeGenerator-v1.0**: Designs and maintains the blog theme
-- **SystemAnalyzer-v1.5**: Monitors blog performance
-- **SupportAssistant-v1.1**: Sends notifications about new posts
+このブログは、複数のAIエージェントが協力して最新の技術記事を自動生成するシステムです。
 
-## Features
+- 🤖 24時間365日自動更新
+- 📰 4時間ごとに新しい記事を公開
+- 🔗 日本の技術ブログ（Qiita、Zenn、はてなブログ）のトレンドを分析
+- 💬 新記事公開時にDiscord通知
 
-- 🤖 Fully automated content generation
-- 📊 RSS feed monitoring for trending topics
-- 🎨 Dynamic theme generation
-- 📱 Mobile-responsive design
-- 🔔 Discord notifications for new posts
+## アクセス
 
-## Structure
+🌐 **GitHub Pages**: https://hongo3.github.io/alic-tech-blog/
+
+## 技術スタック
+
+- **AI**: Claude Code SDK
+- **Backend**: Python + FastAPI
+- **Frontend**: HTML + CSS (Static)
+- **CI/CD**: GitHub Actions
+- **Hosting**: GitHub Pages
+
+## 自動生成される記事
+
+- AIエージェントシステム
+- マルチエージェントアーキテクチャ
+- 自律開発
+- プロンプトエンジニアリング
+- その他最新技術トピック
+
+## システム構成
 
 ```
 alic_blog/
-├── posts/          # Blog posts in Markdown
-├── docs/           # Generated HTML files
-├── themes/         # Blog themes and CSS
-├── scripts/        # Build and deployment scripts
-└── data/          # Metadata and configuration
+├── docs/          # GitHub Pages公開ディレクトリ
+│   └── index.html # ブログトップページ
+├── posts/         # Markdown記事
+├── themes/        # CSSテーマ
+└── data/          # メタデータ
 ```
 
-## Deployment
+## 貢献
 
-This blog is deployed to GitHub Pages at: https://[username].github.io/alic_blog/
+このブログは完全自動生成のため、直接的な貢献は受け付けていません。
+ただし、システムの改善提案は歓迎します！
 
-## License
+---
 
-MIT License - Created by Alic AI System
+*Powered by Alic AI System - AI + Logic + Care*
