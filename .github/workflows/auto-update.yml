@@ -25,13 +25,16 @@ jobs:
     - name: Generate new article
       env:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        TZ: 'Asia/Tokyo'
       run: |
         python generate_article.py || echo "Article generation completed"
     
     - name: Commit and push if changed
+      env:
+        TZ: 'Asia/Tokyo'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git diff --staged --quiet || git commit -m "Auto-update: New articles $(date +'%Y-%m-%d %H:%M')"
+        git diff --staged --quiet || git commit -m "Auto-update: New articles $(date +'%Y-%m-%d %H:%M JST')"
         git push

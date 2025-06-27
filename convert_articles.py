@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 Markdown記事をHTMLに変換
+- 最新5記事のみを変換
+- 日本標準時（JST）の表示に対応
 """
 
 import os
@@ -62,6 +64,11 @@ def convert_md_to_html(md_file_path):
     # 段落
     paragraphs = html_content.split('\n\n')
     html_content = '\n'.join(f'<p>{p}</p>' if not p.strip().startswith('<') else p for p in paragraphs if p.strip())
+    
+    # 日付にJST表記を追加（まだ付いていない場合）
+    date_str = meta_dict.get('date', '')
+    if date_str and 'JST' not in date_str:
+        date_str += ' JST'
     
     # HTMLテンプレート
     html_template = f"""<!DOCTYPE html>
@@ -135,7 +142,7 @@ def convert_md_to_html(md_file_path):
     <div class="article-header">
         <h1>{meta_dict.get('title', 'Untitled')}</h1>
         <div class="article-meta">
-            📅 {meta_dict.get('date', '')} | 
+            📅 {date_str} | 
             🏷️ {meta_dict.get('tags', '')} | 
             🔗 <a href="{meta_dict.get('source', '#')}" target="_blank">参考元</a>
         </div>
@@ -152,18 +159,26 @@ def convert_md_to_html(md_file_path):
     return html_template
 
 def main():
-    """すべてのMarkdown記事をHTMLに変換"""
+    """すべてのMarkdown記事をHTMLに変換（最新5件のみ）"""
     posts_dir = Path("posts")
     docs_dir = Path("docs/articles")
     
     # articlesディレクトリを作成
     docs_dir.mkdir(exist_ok=True)
     
-    # すべてのMarkdownファイルを変換
-    md_files = list(posts_dir.glob("*.md"))
-    print(f"📝 {len(md_files)}個の記事を変換します...")
+    # すべてのMarkdownファイルを取得して、新しい順にソート
+    md_files = sorted(posts_dir.glob("*.md"), key=lambda x: x.name, reverse=True)
     
-    for md_file in md_files:
+    # 最新5件のみを変換
+    files_to_convert = md_files[:5]
+    
+    print(f"📝 {len(files_to_convert)}個の記事をHTMLに変換します...")
+    
+    # 既存のHTMLファイルをすべて削除（クリーンアップ）
+    for html_file in docs_dir.glob("*.html"):
+        html_file.unlink()
+    
+    for md_file in files_to_convert:
         html_content = convert_md_to_html(md_file)
         
         # HTMLファイルとして保存
@@ -175,7 +190,7 @@ def main():
         
         print(f"  ✅ {md_file.name} → {html_filename}")
     
-    print(f"\n✨ 完了！{len(md_files)}個の記事をHTMLに変換しました。")
+    print(f"\n✨ 完了！{len(files_to_convert)}個の記事をHTMLに変換しました。")
 
 if __name__ == "__main__":
     main()
