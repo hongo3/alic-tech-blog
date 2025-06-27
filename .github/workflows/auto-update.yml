@@ -5,6 +5,9 @@ on:
     - cron: '*/30 * * * *'  # 30分ごと
   workflow_dispatch:  # 手動実行も可能
 
+permissions:
+  contents: write
+
 jobs:
   update-blog:
     runs-on: ubuntu-latest
