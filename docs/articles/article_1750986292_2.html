@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Code SDKで始める自律開発</title>
+    <link rel="stylesheet" href="../themes/modern.css">
+    <style>
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: -apple-system, system-ui, sans-serif;
+            line-height: 1.7;
+            color: #1f2937;
+        }
+        .article-header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #e5e7eb;
+            margin-bottom: 40px;
+        }
+        .article-meta {
+            color: #64748b;
+            font-size: 0.9em;
+            margin: 20px 0;
+        }
+        .article-content {
+            font-size: 1.1em;
+        }
+        .article-content h1, .article-content h2, .article-content h3 {
+            margin-top: 2em;
+            margin-bottom: 1em;
+            color: #2563eb;
+        }
+        .article-content code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .article-content pre {
+            background: #1f2937;
+            color: #e5e7eb;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        .article-content pre code {
+            background: none;
+            color: inherit;
+            padding: 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 10px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        .back-link:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+    <div class="article-header">
+        <h1>Claude Code SDKで始める自律開発</h1>
+        <div class="article-meta">
+            📅 2025-06-27 10:04 | 
+            🏷️ Claude, SDK, Autonomous Development | 
+            🔗 <a href="https://b.hatena.ne.jp/hotentry/it" target="_blank">参考元</a>
+        </div>
+    </div>
+    
+    <div class="article-content">
+        <h1>Claude Code SDKで始める自律開発</h1>
+<p>Claude Code SDKを活用することで、AIが自律的にコードを生成・実行するシステムを構築できます。</p>
+<h2>主な機能</h2>
+<li><strong>コード生成</strong>: 自然言語からのコード生成</li>
+<li><strong>エラー修正</strong>: 自動的なバグフィックス</li>
+<li><strong>リファクタリング</strong>: コード品質の向上</li>
+<h2>実践例：自律ブログシステム</h2>
+<pre><code>from claude_code_integration import ClaudeCodeIntegration
+<p>claude = ClaudeCodeIntegration()</p>
+<h1>AIにブログ記事の生成を依頼</h1>
+result = await claude.execute_code_task(
+    prompt="トレンドを分析してAI関連の記事を書いて",
+    task_type="content_generation"
+)
+</code></pre>
+<p>このようなシステムにより、開発者は高レベルな指示を出すだけで、詳細な実装はAIが担当します。</p>
+<a href="https://b.hatena.ne.jp/hotentry/it">参考: Hatena Blog - 技術記事</a>
+    </div>
+    
+    <a href="../index.html" class="back-link">← ブログトップに戻る</a>
+</body>
+</html>
