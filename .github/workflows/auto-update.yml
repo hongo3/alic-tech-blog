@@ -20,14 +20,13 @@ jobs:
     
     - name: Install dependencies
       run: |
-        pip install httpx python-dotenv
+        pip install httpx python-dotenv aiofiles
     
     - name: Generate new article
       env:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: |
-        cd ..
-        python simple_blog_test.py || echo "Article generation completed"
+        python generate_article.py || echo "Article generation completed"
     
     - name: Commit and push if changed
       run: |
