@@ -1,0 +1,65 @@
+{
+  "generated_at": "2025-06-28 00:47:54 JST",
+  "total_articles": 10,
+  "html_files": 5,
+  "article_types": {
+    "technical": 6,
+    "message": 2,
+    "special": 1,
+    "night": 1
+  },
+  "popular_tags": [
+    [
+      "AI",
+      8
+    ],
+    [
+      "Technology",
+      6
+    ],
+    [
+      "Tutorial",
+      6
+    ],
+    [
+      "Message",
+      2
+    ],
+    [
+      "Milestone",
+      1
+    ],
+    [
+      "Autonomous System",
+      1
+    ],
+    [
+      "Travel",
+      1
+    ],
+    [
+      "Night",
+      1
+    ],
+    [
+      "Developer",
+      1
+    ]
+  ],
+  "hourly_distribution": {
+    "0": 3,
+    "10": 2,
+    "15": 4
+  },
+  "fun_facts": {
+    "night_owl_articles": 1,
+    "special_moments": 1,
+    "ai_messages": 2,
+    "tech_deep_dives": 6
+  },
+  "system_status": {
+    "blog_health": "🟢 Healthy",
+    "auto_generation": "Active",
+    "last_update": "00:47:54 JST"
+  }
+}
