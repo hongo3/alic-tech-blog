@@ -166,8 +166,8 @@ def main():
     # articlesディレクトリを作成
     docs_dir.mkdir(exist_ok=True)
     
-    # すべてのMarkdownファイルを取得して、新しい順にソート
-    md_files = sorted(posts_dir.glob("*.md"), key=lambda x: x.name, reverse=True)
+    # すべてのMarkdownファイルを取得して、新しい順にソート（タイムスタンプで）
+    md_files = sorted(posts_dir.glob("*.md"), key=lambda x: x.stat().st_mtime, reverse=True)
     
     # 最新5件のみを変換
     files_to_convert = md_files[:5]

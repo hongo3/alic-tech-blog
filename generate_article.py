@@ -151,9 +151,20 @@ def implement_ai_system():
     print(f"✅ Generated: {topic}")
     print(f"   時刻: {jst_now.strftime('%Y-%m-%d %H:%M:%S')} JST")
     
-    # HTMLに変換
+    # HTMLに変換（確実に実行）
     if Path("convert_articles.py").exists():
-        os.system("python convert_articles.py")
+        import subprocess
+        print("📝 HTMLに変換中...")
+        result = subprocess.run(
+            ["python", "convert_articles.py"], 
+            capture_output=True, 
+            text=True
+        )
+        if result.returncode != 0:
+            print(f"❌ HTML変換エラー: {result.stderr}")
+        else:
+            print("✅ HTML変換完了")
+            print(result.stdout)
     
     # index.htmlを更新
     await update_index_html(article_id, topic, jst_now)

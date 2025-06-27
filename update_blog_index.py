@@ -13,8 +13,8 @@ def update_blog_index():
     jst_now = datetime.now(timezone(timedelta(hours=9)))
     posts_dir = Path("posts")
     
-    # 最新5件の記事を取得
-    md_files = sorted(posts_dir.glob("*.md"), key=lambda x: x.name, reverse=True)[:5]
+    # 最新5件の記事を取得（タイムスタンプでソート）
+    md_files = sorted(posts_dir.glob("*.md"), key=lambda x: x.stat().st_mtime, reverse=True)[:5]
     
     articles_html = []
     
