@@ -1,0 +1,392 @@
+[
+  {
+    "title": "AIがやるべき仕事　主成分分析の軸の解釈",
+    "link": "https://qiita.com/vooau73291/items/604fbea2c67357e2391a",
+    "summary": "主成分分析をAIを使ってやるなんて、単なる第２世代ルールベースAIじゃん。\nAIにやってほしいのは、主成分分析の軸の解釈だと思う。\n以下、トライ結果です。\nサンプルデータ\nhttps://qiita…",
+    "source": "Qiita AI",
+    "type": "tech",
+    "published": "2025-06-28T03:47:46+09:00",
+    "tags": [],
+    "id": "5785059535d46505651866f312c8cf50"
+  },
+  {
+    "title": "【Flutter × Firebase】他ユーザープロフィール機能でコミュニティを活性化！プライバシー配慮とパフォーマンス最適化のベストプラクティス＃6",
+    "link": "https://qiita.com/takutosat/items/bb43222cfd0b5c6e124b",
+    "summary": "はじめに\nコーヒー焙煎ログアプリの開発も6回目になりました！今回は他ユーザープロフィール閲覧機能を実装し、コミュニティ機能をさらに充実させます。\n単なるプロフィール表示ではなく、プライバシー配慮、F…",
+    "source": "Qiita AI",
+    "type": "tech",
+    "published": "2025-06-28T00:14:26+09:00",
+    "tags": [],
+    "id": "a396e0948fb3b6857cbd0a968f644405"
+  },
+  {
+    "title": "🎯Numbers3&4の当選番号を予測する『MAGI』システムを作る - 作戦概要",
+    "link": "https://qiita.com/Necoze/items/112452067e81a817505d",
+    "summary": "1. はじめに\nどうも、趣味でデータ分析している猫背なエンジニアです。\n急ですが、宝くじで一攫千金したくないですか？\n宝くじの当選番号を予測するシステムを長年愛してやまない『新世紀エヴァンゲリオン』…",
+    "source": "Qiita AI",
+    "type": "tech",
+    "published": "2025-06-27T23:41:30+09:00",
+    "tags": [],
+    "id": "88af3d2077ddbef746db6b4fb17ae3a2"
+  },
+  {
+    "title": "Gemini CLIはClaude codeを駆逐できるか？",
+    "link": "https://qiita.com/KLaboratory/items/44dcd00f908275b5c2aa",
+    "summary": "Gemini CLIの登場\n無料という意味と魅力\nGoogleからGemini CLIが発表され、界隈は結構なにぎわいを見せました。私もClaude codeを使うために、AnthropicのMAX…",
+    "source": "Qiita AI",
+    "type": "tech",
+    "published": "2025-06-27T22:04:35+09:00",
+    "tags": [],
+    "id": "203d74eacb0f8558a927fe9c03923712"
+  },
+  {
+    "title": "GoogleCloud PCA資格の学習記録 - AI / ML編",
+    "link": "https://qiita.com/fujithuro/items/a02782f50b20e2f447d2",
+    "summary": "はじめに\nGoogle CloudのPCA(Professional Cloud Architect)認定資格取得に向けて学習した内容を自分なりに整理します。Google Cloudのサービスに限ら…",
+    "source": "Qiita Machine Learning",
+    "type": "tech",
+    "published": "2025-06-21T11:58:56+09:00",
+    "tags": [],
+    "id": "30d23ce8eebb3714ca51ac81a8b27cd7"
+  },
+  {
+    "title": "Data Doesn’t Lie—But Humans Do: A Look Into Bias in AI Models",
+    "link": "https://qiita.com/Browsejobs/items/77c7ace786fe623e9d11",
+    "summary": "Artificial Intelligence (AI) and Machine Learning (ML) are often thought of as purely logical, obje…",
+    "source": "Qiita Machine Learning",
+    "type": "tech",
+    "published": "2025-06-17T19:30:14+09:00",
+    "tags": [],
+    "id": "6b6f6f24c677c38024012e95790a5d0d"
+  },
+  {
+    "title": "不定形性専門家混合(IMoE: Indefinacy Mixture of Experts)技術メモ",
+    "link": "https://qiita.com/peony_snow/items/ab793b2efae0d2857245",
+    "summary": "はじめに\n新緑の音色がそよぎに運ばれる今日この頃、みなさまいかがお過ごしでしょうか？\n六花　牡丹（りっか　ぼたん）と申します。\n本記事は\nIMoE GitHubリポジトリ\nで公開した、IMoE: …",
+    "source": "Qiita Machine Learning",
+    "type": "tech",
+    "published": "2025-05-26T23:38:38+09:00",
+    "tags": [],
+    "id": "81f317996f7f9115c0a1bbf130215bc7"
+  },
+  {
+    "title": "Feature Storeの具体的な機能の肌感をつかむために、SageMaker Feature Storeを触ってみたメモ",
+    "link": "https://qiita.com/morinota/items/500eb34dabe3c728c8da",
+    "summary": "これは何??\n\nこの記事は、Feature Storeの具体的な機能の肌感をつかむために、SageMaker Feature Storeを触ってみたメモです。\n\n(どのFeature Storeサービス…",
+    "source": "Qiita Machine Learning",
+    "type": "tech",
+    "published": "2025-05-25T21:57:21+09:00",
+    "tags": [],
+    "id": "64d4cb1036ac4475e280ad4cf9daebf4"
+  },
+  {
+    "title": "プログラミング未経験から1ヶ月半でPython国際資格「PCEP」に合格した勉強方法",
+    "link": "https://qiita.com/akkTYO/items/cefa3a5e6992d217e329",
+    "summary": "本記事では、Python初心者がわずか1ヶ月半でPython国際資格「PCEP – Certified Entry-Level Python Programmer」に合格 した学習方法を紹介していま…",
+    "source": "Qiita Python",
+    "type": "tech",
+    "published": "2025-06-28T07:00:26+09:00",
+    "tags": [],
+    "id": "b1771694125ca68dc7c697aca13b2e0f"
+  },
+  {
+    "title": "Streamlitの再実行を止めたい？session_state / @st.cache_data / @st.cache_resource の使い分け",
+    "link": "https://qiita.com/maskot1977/items/7b4abc4f375426712e71",
+    "summary": "user:\nStreamlit アプリは、ユーザが何かするたびに再計算しますが、再計算せずに済ます箇所を指定しておくことはできますか？\nassistant:\nはい、Streamlit では「再計算（…",
+    "source": "Qiita Python",
+    "type": "tech",
+    "published": "2025-06-28T06:11:56+09:00",
+    "tags": [],
+    "id": "0f9b7ae832cbda29f7729e79e85d6878"
+  },
+  {
+    "title": "3軸ロボットアーム Part4 (微分逆運動学)",
+    "link": "https://qiita.com/haruhiro1020/items/c07c2635d03cf31396f6",
+    "summary": "はじめに\n私がロボットに関して興味を持っている．特にロボットの経路生成に興味がある．\n前記事では，干渉物が存在する環境下での3軸ロボットアームの逆運動学を用いた経路生成を説明した．\n(https:/…",
+    "source": "Qiita Python",
+    "type": "tech",
+    "published": "2025-06-28T06:09:30+09:00",
+    "tags": [],
+    "id": "59063aebe2213666b76317cf4d7a7631"
+  },
+  {
+    "title": "Kaggle用にプログラム終了後にdiscordで通知を送りたい",
+    "link": "https://qiita.com/cahein/items/bcc3288a08af4874b5b1",
+    "summary": "はじめに\nKaggleのコンペティションや機械学習を回しているときに、学習が終了したら教えてほしいなぁ。\nそう思ったことはありませんか？\n以前はLine Notifyを使って、通知してもらっていたが…",
+    "source": "Qiita Python",
+    "type": "tech",
+    "published": "2025-06-28T01:36:57+09:00",
+    "tags": [],
+    "id": "57df5856e75f463e63b2c3e80b5abab7"
+  },
+  {
+    "title": "AWS User Group Toronto @ Toronto Tech Week'25 – June Meetup Recap",
+    "link": "https://dev.to/bansi2000/aws-user-group-toronto-toronto-tech-week25-june-meetup-recap-1chh",
+    "summary": "<p>On June 26, 2025, we hosted a power-packed AWS User Group Toronto meetup as part of Toronto Tech Week—and what an incredible evening it was! </p>\n\n<p>From AI-powered developer tools to real-world cloud architecture insights, the event was a celebration of learning, building, and community connection.</p>\n\n<h2>\n  \n  \n  🛠️ Hands-On Workshop: Smarter Way to Work in CLI with Amazon Q Developer\n</h2>\n\n<p>The evening kicked off with a 90-minute immersive workshop led by <a class=\"mentioned-user\" hr",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 22:49:45 +0000",
+    "tags": [
+      "aws",
+      "ai",
+      "meetup",
+      "workshop"
+    ],
+    "id": "b6e2191c7b7ca06dc923df945f2fcb1a"
+  },
+  {
+    "title": "AWS User Group Toronto @ Toronto Tech Week'25 – June Meetup Recap",
+    "link": "https://dev.to/bansi2000/aws-user-group-toronto-toronto-tech-week25-june-meetup-recap-2je6",
+    "summary": "<p>On June 26, 2025, we hosted a power-packed AWS User Group Toronto meetup as part of Toronto Tech Week—and what an incredible evening it was! </p>\n\n<p>From AI-powered developer tools to real-world cloud architecture insights, the event was a celebration of learning, building, and community connection.</p>\n\n<h2>\n  \n  \n  🛠️ Hands-On Workshop: Smarter Way to Work in CLI with Amazon Q Developer\n</h2>\n\n<p>The evening kicked off with a 90-minute immersive workshop led by <a class=\"mentioned-user\" hr",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 22:49:45 +0000",
+    "tags": [
+      "aws",
+      "ai",
+      "meetup",
+      "workshop"
+    ],
+    "id": "de81328e514afb047ac9d7f4b20b944a"
+  },
+  {
+    "title": "AWS User Group Toronto @ Toronto Tech Week'25 – June Meetup Recap",
+    "link": "https://dev.to/bansi2000/aws-user-group-toronto-toronto-tech-week25-june-meetup-recap-2jcm",
+    "summary": "<p>On June 26, 2025, we hosted a power-packed AWS User Group Toronto meetup as part of Toronto Tech Week—and what an incredible evening it was! </p>\n\n<p>From AI-powered developer tools to real-world cloud architecture insights, the event was a celebration of learning, building, and community connection.</p>\n\n<h2>\n  \n  \n  🛠️ Hands-On Workshop: Smarter Way to Work in CLI with Amazon Q Developer\n</h2>\n\n<p>The evening kicked off with a 90-minute immersive workshop led by <a class=\"mentioned-user\" hr",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 22:49:45 +0000",
+    "tags": [
+      "aws",
+      "ai",
+      "meetup",
+      "workshop"
+    ],
+    "id": "8f9d563484c03909151dfc69efe0896d"
+  },
+  {
+    "title": "AWS User Group Toronto @ Toronto Tech Week'25 – June Meetup Recap",
+    "link": "https://dev.to/bansi2000/aws-user-group-toronto-toronto-tech-week25-june-meetup-recap-3jk9",
+    "summary": "<p>On June 26, 2025, we hosted a power-packed AWS User Group Toronto meetup as part of Toronto Tech Week—and what an incredible evening it was! </p>\n\n<p>From AI-powered developer tools to real-world cloud architecture insights, the event was a celebration of learning, building, and community connection.</p>\n\n<h2>\n  \n  \n  🛠️ Hands-On Workshop: Smarter Way to Work in CLI with Amazon Q Developer\n</h2>\n\n<p>The evening kicked off with a 90-minute immersive workshop led by <a class=\"mentioned-user\" hr",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 22:49:45 +0000",
+    "tags": [
+      "aws",
+      "ai",
+      "meetup",
+      "workshop"
+    ],
+    "id": "33db4cda67f9b202e06c732d07b93e8b"
+  },
+  {
+    "title": "MCP Server Wrap-Up — Patterns, Libraries & Scaling Context",
+    "link": "https://dev.to/codanyks/mcp-server-wrap-up-patterns-libraries-scaling-context-1f02",
+    "summary": "<h3>\n  \n  \n  <em>A final look at how to scale agent memory, build coordination patterns, and extend MCP into real-world systems.</em>\n</h3>\n\n<h2>\n  \n  \n  Let’s Recap the Journey\n</h2>\n\n<p>We started with a problem every agent-based developer faces:<br />\n<strong>Memory is duct-taped. Context is fragile. Coordination is chaotic.</strong></p>\n\n<p>Then, over 4 days, we built and evolved a system to change that.</p>\n\n\n<h3>\n  \n  \n  <strong>Day 1</strong> — <em>What is MCP Server?</em>\n</h3>\n\n<ul>\n<li",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 22:30:00 +0000",
+    "tags": [
+      "ai",
+      "mcp",
+      "programming",
+      "node"
+    ],
+    "id": "63865392c6202deaab1c6f734875575a"
+  },
+  {
+    "title": "Please take 5 minutes to comment",
+    "link": "https://dev.to/setrathexx/-4h26",
+    "summary": "<div class=\"ltag__link\">\n  <a class=\"ltag__link__link\" href=\"/setrathexx\">\n    <div class=\"ltag__link__pic\">\n      <img alt=\"setrathexx\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3278123%2F62ec0628-4a1c-4f96-8447-ecb24af00e4f.jpeg\" />\n    </div>\n  </a>\n  <a class=\"ltag__link__link\" href=\"https://dev.to/setrathexx/how-i-built-a-smarter-zip-engine-with-a",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 22:10:29 +0000",
+    "tags": [
+      "ai",
+      "opensource",
+      "softwareengineering",
+      "python"
+    ],
+    "id": "56ee1eac9714200a35b7867d60f9acab"
+  },
+  {
+    "title": "🧠 RAG in Minutes with MultiMind SDK — No LangChain Needed",
+    "link": "https://dev.to/multimindsdk/rag-in-minutes-with-multimind-sdk-no-langchain-needed-1l9g",
+    "summary": "<h2>\n  \n  \n  🚧 Intro: What is RAG and Why Should You Care?\n</h2>\n\n<p>In the world of Large Language Models (LLMs), one of the most powerful techniques for delivering accurate, real-time, and context-aware answers is <strong>Retrieval-Augmented Generation</strong> — or <strong>RAG</strong>.</p>\n\n<p>Instead of making your LLM guess everything from its pre-trained knowledge, RAG lets your model <strong>\"look up\" relevant information from a trusted document store</strong> before generating a respons",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 21:47:48 +0000",
+    "tags": [
+      "ai",
+      "rag",
+      "programming",
+      "webdev"
+    ],
+    "id": "f4980a0dcef4a49554df9061e7a4e31c"
+  },
+  {
+    "title": "[Boost]",
+    "link": "https://dev.to/setrathexx/-31b1",
+    "summary": "<div class=\"ltag__link\">\n  <a class=\"ltag__link__link\" href=\"/setrathexx\">\n    <div class=\"ltag__link__pic\">\n      <img alt=\"setrathexx\" src=\"https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3278123%2F62ec0628-4a1c-4f96-8447-ecb24af00e4f.jpeg\" />\n    </div>\n  </a>\n  <a class=\"ltag__link__link\" href=\"https://dev.to/setrathexx/how-i-built-a-smarter-zip-engine-with-a",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 21:28:52 +0000",
+    "tags": [
+      "ai",
+      "opensource",
+      "softwareengineering",
+      "zip"
+    ],
+    "id": "1c5658ff14a7d9308b0684f98cecb64a"
+  },
+  {
+    "title": "From Cloud Lag to GPU Speed: How Dedicated Servers Are Revolutionizing Remote Work and Development",
+    "link": "https://dev.to/helloserver/from-cloud-lag-to-gpu-speed-how-dedicated-servers-are-revolutionizing-remote-work-and-development-2ehb",
+    "summary": "<p>In recent years, the way we work, build, and collaborate has undergone a massive transformation. Remote work has moved from an occasional perk to a standard operating model for millions of professionals across industries. Developers, engineers, designers, and data scientists are now expected to perform high-performance tasks—like machine learning model training, 3D rendering, and video production—from laptops in home offices.</p>\n\n<p>But this new flexibility comes with one major drawback: lag",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 20:48:53 +0000",
+    "tags": [
+      "programming",
+      "webdev",
+      "javascript",
+      "ai"
+    ],
+    "id": "bc24a91825cc60ec71f10c4342c9f709"
+  },
+  {
+    "title": "Building Production-Ready AI Workflows with Rust: An Event-Sourced Approach",
+    "link": "https://dev.to/bredmond1019/building-production-ready-ai-workflows-with-rust-an-event-sourced-approach-5142",
+    "summary": "<p>Ever wondered what happens when you combine Rust's performance guarantees with enterprise AI orchestration? The <a href=\"https://github.com/bredmond1019/workflow-engine-rs\" rel=\"noopener noreferrer\">AI Workflow Engine</a> is a testament to what's possible when these worlds collide.</p>\n\n<h2>\n  \n  \n  Why Another Workflow Engine?\n</h2>\n\n<p>In the age of AI-powered automation, we need infrastructure that can handle the complexity of orchestrating multiple AI providers while maintaining the relia",
+    "source": "Dev.to AI",
+    "type": "tech",
+    "published": "Fri, 27 Jun 2025 20:39:56 +0000",
+    "tags": [
+      "rust",
+      "ai",
+      "eventdriven",
+      "microservices"
+    ],
+    "id": "03cea4c3a00d92771436b93e36177a3b"
+  },
+  {
+    "title": "Denmark to tackle deepfakes by giving people copyright to their own features",
+    "link": "https://www.reddit.com/r/artificial/comments/1lls7ty/denmark_to_tackle_deepfakes_by_giving_people/",
+    "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1lls7ty/denmark_to_tackle_deepfakes_by_giving_people/\"> <img alt=\"Denmark to tackle deepfakes by giving people copyright to their own features\" src=\"https://external-preview.redd.it/LAsqQerBEfLnc0GGXQzBFoW4crKgaqFSjuHpqJWYPYs.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=278fb109a9d8fc618cff29843596a1c471ea2e4d\" title=\"Denmark to tackle deepfakes by giving people copyright to their own features\" /> </a> </td><td> &#32; su",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-27T12:07:57+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "32525954a2e84babe1a72faaf5ada8ac"
+  },
+  {
+    "title": "While managing a vending machine, Claude forgot he wasn't a real human, then had an identity crisis: \"Claude became alarmed by the identify confusion and tried to send many emails to Anthropic security.\"",
+    "link": "https://www.reddit.com/r/artificial/comments/1lm1ex4/while_managing_a_vending_machine_claude_forgot_he/",
+    "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1lm1ex4/while_managing_a_vending_machine_claude_forgot_he/\"> <img alt=\"While managing a vending machine, Claude forgot he wasn't a real human, then had an identity crisis: &quot;Claude became alarmed by the identify confusion and tried to send many emails to Anthropic security.&quot;\" src=\"https://preview.redd.it/qsfkfpa9ki9f1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=801e307a1cd8fea3e80cdd1645253ece0b13a261\" title=\"Wh",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-27T18:33:17+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "329faffdf0dc004b92aeb6e2404945e2"
+  },
+  {
+    "title": "Apple Research just unearthed a forgotten AI technique and is using it to generate images",
+    "link": "https://www.reddit.com/r/artificial/comments/1lls33i/apple_research_just_unearthed_a_forgotten_ai/",
+    "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1lls33i/apple_research_just_unearthed_a_forgotten_ai/\"> <img alt=\"Apple Research just unearthed a forgotten AI technique and is using it to generate images\" src=\"https://external-preview.redd.it/zVZYNMwmnHHNrAT2j1A1EQdBT6GYhRI0-BdxyOwM0lY.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7478bb5e722aedb08c221c797239a890f8612d30\" title=\"Apple Research just unearthed a forgotten AI technique and is using it to generate images\" ",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-27T12:01:13+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "adf291f1cc10b29065f5e3139c736bf7"
+  },
+  {
+    "title": "Ai style greeting cards in German Supermarket",
+    "link": "https://www.reddit.com/r/artificial/comments/1lls3oy/ai_style_greeting_cards_in_german_supermarket/",
+    "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1lls3oy/ai_style_greeting_cards_in_german_supermarket/\"> <img alt=\"Ai style greeting cards in German Supermarket\" src=\"https://preview.redd.it/7rmv8zjgmg9f1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=54af44808d3726a50916067b9363751e4e01c046\" title=\"Ai style greeting cards in German Supermarket\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I don’t know what to think of this</p> </div><!-- SC_ON --> &#32; submitte",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-27T12:02:00+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "6a18598e0290ce60e01a767668b4a78d"
+  },
+  {
+    "title": "I gave NotebookLM an existential crisis for artistic purposes",
+    "link": "https://www.reddit.com/r/artificial/comments/1lm5tcr/i_gave_notebooklm_an_existential_crisis_for/",
+    "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1lm5tcr/i_gave_notebooklm_an_existential_crisis_for/\"> <img alt=\"I gave NotebookLM an existential crisis for artistic purposes\" src=\"https://external-preview.redd.it/OAXSl8SY6T3JK9MGQyKxkoYbqZ71HQRYXLeB8CV0NXg.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0f53460a90493497883ab4cacbbb58e2acb464c4\" title=\"I gave NotebookLM an existential crisis for artistic purposes\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https:",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-27T21:35:54+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "7e0be5c060711781f52f0d321111de10"
+  },
+  {
+    "title": "Trust and AI",
+    "link": "https://www.reddit.com/r/artificial/comments/1lm3j2k/trust_and_ai/",
+    "summary": "<!-- SC_OFF --><div class=\"md\"><p>So a lot of heads of AI companies are basically pushing we shouldn't trust AI or they are shocked we trust AI. Obviously some online push this.</p> <p>The heads of AI companies, keep in mind they are a bunch of snakes. They know exactly what is going on, and they are trying to look shock at the obvious. </p> <p>Lets get into the core of the issue. Should people trust AI? This should be compared to should you trust a human</p> <table><thead> <tr> <th align=\"left\"",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-27T19:59:47+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "fbfc74bdd0aece6c725462ae625a72ac"
+  },
+  {
+    "title": "AI Experiments Are Fun. Scaling Something Useful is the Hard Part",
+    "link": "https://www.reddit.com/r/artificial/comments/1lm1ari/ai_experiments_are_fun_scaling_something_useful/",
+    "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1lm1ari/ai_experiments_are_fun_scaling_something_useful/\"> <img alt=\"AI Experiments Are Fun. Scaling Something Useful is the Hard Part\" src=\"https://external-preview.redd.it/Ft2uIh_jBLNsqKnZfHNqi8JaXHOfr9VNABNEs8fLU0E.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=baf462bbf004d41d3ca5caa78c779d28887320b9\" title=\"AI Experiments Are Fun. Scaling Something Useful is the Hard Part\" /> </a> </td><td> &#32; submitted by &#32; <a",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-27T18:28:48+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "1bf0df6dd7413e1b8dd08ee00efab5a0"
+  },
+  {
+    "title": "Anthropic's Jack Clark testifying in front of Congress: \"You wouldn't want an AI system that tries to blackmail you to design its own successor, so you need to work safety or else you will lose the race.\"",
+    "link": "https://www.reddit.com/r/artificial/comments/1ll3n1n/anthropics_jack_clark_testifying_in_front_of/",
+    "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1ll3n1n/anthropics_jack_clark_testifying_in_front_of/\"> <img alt=\"Anthropic's Jack Clark testifying in front of Congress: &quot;You wouldn't want an AI system that tries to blackmail you to design its own successor, so you need to work safety or else you will lose the race.&quot;\" src=\"https://external-preview.redd.it/aDNtNG93MmVtYTlmMZMo9gvvv91CA0FdKX1HRNCUhAaSj8uglBb8NtsSXJfv.png?width=640&amp;crop=smart&amp;auto=webp&amp;s",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-26T15:51:00+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "16904fed284a55f6f5ad5dbe40baa6e2"
+  },
+  {
+    "title": "Looking for a tool that can collect B2B information",
+    "link": "https://www.reddit.com/r/artificial/comments/1llzo5i/looking_for_a_tool_that_can_collect_b2b/",
+    "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi!</p> <p>I need a tool that can collect information like the name, website, email, phone, and address of a country and put it into a excel. </p> <p>I need all of the stores in Europe that sell our typ of product so I can get in touch with them (GPT said roughly 3000 Stores, mostly independent)</p> <p>Chatgpt can do it but even deep research caps at like 30. </p> <p>I‘m fine with paying as well. </p> <p>What tools do you suggest?</p> <p>Thanks!</p> </div><!-- S",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-27T17:23:09+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "f6bff6bdd123af3298cda57ad0c93c97"
+  },
+  {
+    "title": "Musk's attempts to politicize his Grok AI are bad for users and enterprises — here's why",
+    "link": "https://www.reddit.com/r/artificial/comments/1ll5g65/musks_attempts_to_politicize_his_grok_ai_are_bad/",
+    "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1ll5g65/musks_attempts_to_politicize_his_grok_ai_are_bad/\"> <img alt=\"Musk's attempts to politicize his Grok AI are bad for users and enterprises — here's why\" src=\"https://external-preview.redd.it/fTBHZLjDW_n9zxnSKZDKOTaGp4HsC6Jr6lvmTnjsTvQ.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=6b421d314c46e73239c3ec8330fb0233c585c5f9\" title=\"Musk's attempts to politicize his Grok AI are bad for users and enterprises — here's why\"",
+    "source": "Reddit r/artificial",
+    "type": "discussion",
+    "published": "2025-06-26T17:01:36+00:00",
+    "tags": [
+      "artificial"
+    ],
+    "id": "82679627ec72e2c18ec653ca3c979da8"
+  }
+]
