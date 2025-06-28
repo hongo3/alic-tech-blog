@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIモデルのファインチューニング手法</title>
+    <link rel="stylesheet" href="../themes/article-style.css">
+    <style>
+        /* 記事ページ専用の追加スタイル */
+        .article-container {
+            display: flex;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .article-main {
+            flex: 1;
+            max-width: 800px;
+        }
+        
+        .article-sidebar {
+            width: 300px;
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+        }
+        
+        .toc {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .toc h3 {
+            margin-top: 0;
+            color: #333;
+            font-size: 1.1em;
+        }
+        
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .toc li {
+            margin: 8px 0;
+        }
+        
+        .toc a {
+            color: #6c757d;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .toc a:hover {
+            color: #667eea;
+        }
+        
+        .article-info-box {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .article-info-box h4 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .article-info-box dl {
+            margin: 0;
+        }
+        
+        .article-info-box dt {
+            font-weight: bold;
+            color: #6c757d;
+            margin-top: 10px;
+        }
+        
+        .article-info-box dd {
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
+        
+        .code-block {
+            background: #1f2937;
+            color: #e5e7eb;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 20px 0;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        
+        .inline-code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 0.9em;
+        }
+        
+        blockquote {
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #6c757d;
+            font-style: italic;
+        }
+        
+        .category-tag {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 20px;
+            color: white;
+            font-size: 0.9em;
+            font-weight: 500;
+            background-color: #667eea;
+        }
+        
+        .share-buttons {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            text-align: center;
+        }
+        
+        .share-button {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #f0f0f0;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #333;
+            transition: background 0.2s;
+        }
+        
+        .share-button:hover {
+            background: #e0e0e0;
+        }
+        
+        @media (max-width: 1024px) {
+            .article-container {
+                flex-direction: column;
+            }
+            
+            .article-sidebar {
+                width: 100%;
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-container">
+        <aside class="article-sidebar">
+            <nav class="toc"><h3>目次</h3><ul><li><a href="#概要">概要</a></li><li><a href="#実装例">実装例</a></li></ul></nav>
+            
+            <div class="article-info-box">
+                <h4>記事情報</h4>
+                <dl>
+                    <dt>カテゴリー</dt>
+                    <dd><span class="category-tag">AI開発</span></dd>
+                    
+                    <dt>難易度</dt>
+                    <dd>中級</dd>
+                    
+                    <dt>読了時間</dt>
+                    <dd>約5分</dd>
+                    
+                    <dt>公開日時</dt>
+                    <dd>2025-06-28 07:07 JST</dd>
+                    
+                    <dt>タグ</dt>
+                    <dd>AI, Technology, Tutorial</dd>
+                </dl>
+            </div>
+            
+            <div class="article-info-box">
+                <h4>参考リンク</h4>
+                <ul>
+                    <li><a href="https://qiita.com/tags/ai" target="_blank">ソースコード</a></li>
+                    <li><a href="https://qiita.com/" target="_blank">Qiita</a></li>
+                    <li><a href="https://zenn.dev/" target="_blank">Zenn</a></li>
+                    <li><a href="https://b.hatena.ne.jp/hotentry/it" target="_blank">はてなブックマーク</a></li>
+                </ul>
+            </div>
+        </aside>
+        
+        <main class="article-main">
+            <div class="article-header">
+                <h1>AIモデルのファインチューニング手法</h1>
+                <div class="article-meta">
+                    📅 2025-06-28 07:07 JST | 
+                    🏷️ AI, Technology, Tutorial | 
+                    🔗 <a href="https://qiita.com/tags/ai" target="_blank">参考元</a>
+                </div>
+            </div>
+            
+            <div class="article-content">
+                <h1>AIモデルのファインチューニング手法</h1>
+<p>AIテクノロジーの急速な進化により、AIモデルのファインチューニング手法がますます重要になっています。</p>
+<h2 id="概要">概要</h2>
+<p>このトピックについて、最新の動向と実装方法を解説します。</p>
+<h2 id="実装例">実装例</h2>
+<p>実際のコードを交えながら、具体的な実装方法を見ていきましょう。</p>
+<p>[自動生成された記事 - 2025-06-28 07:07:51]</p>
+            </div>
+            
+            <div class="share-buttons">
+                <a href="https://twitter.com/intent/tweet?text=AIモデルのファインチューニング手法&url=#" class="share-button" target="_blank">
+                    🐦 Twitterでシェア
+                </a>
+                <a href="https://b.hatena.ne.jp/entry/" class="share-button" target="_blank">
+                    📑 はてブに追加
+                </a>
+            </div>
+            
+            <a href="../index.html" class="back-link">← ブログトップに戻る</a>
+        </main>
+    </div>
+</body>
+</html>

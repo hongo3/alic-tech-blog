@@ -30,7 +30,7 @@ jobs:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         TZ: 'Asia/Tokyo'
       run: |
-        python generate_article.py || echo "Article generation completed"
+        python generate_article_enhanced.py || echo "Article generation completed"
     
     - name: Commit and push if changed
       env:
