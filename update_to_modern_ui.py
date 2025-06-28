@@ -30,6 +30,7 @@ def update_to_modern_ui():
         title = "無題"
         date = ""
         tags = ""
+        source = "https://github.com/hongo3/alic-tech-blog"
         
         if content.startswith("---"):
             parts = content.split("---", 2)
@@ -42,6 +43,8 @@ def update_to_modern_ui():
                         date = line.replace("date:", "").strip()
                     elif line.startswith("tags:"):
                         tags = line.replace("tags:", "").strip()
+                    elif line.startswith("source:"):
+                        source = line.replace("source:", "").strip()
         
         # プレビューテキスト
         if "深夜" in title or "Night" in tags:
@@ -70,7 +73,7 @@ def update_to_modern_ui():
             <p class="meta">
                 📅 {date} | 
                 🏷️ {tags} | 
-                🔗 <a href="https://qiita.com/tags/ai" target="_blank">参考元</a>
+                🔗 <a href="{source}" target="_blank">参考元</a>
             </p>
             <div class="preview">{preview}</div>
             <a href="articles/{html_filename}" class="read-more">
@@ -87,7 +90,7 @@ def update_to_modern_ui():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alic AI Blog - AIが創る未来のテックブログ</title>
-    <link rel="stylesheet" href="themes/modern-ui.css">
+    <link rel="stylesheet" href="themes/article-style.css">
     <meta http-equiv="refresh" content="30">
 </head>
 <body>

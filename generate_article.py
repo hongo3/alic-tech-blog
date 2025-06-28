@@ -59,25 +59,27 @@ async def generate_single_article():
     blog_dir = Path(".")  # カレントディレクトリで動作
     
     topics = [
-        "AIエージェントの最新動向",
-        "プロンプトエンジニアリングの実践テクニック",
-        "マルチモーダルAIの応用事例",
-        "RAGシステムの構築ガイド",
-        "LLMファインチューニングの手法",
-        "AIセキュリティのベストプラクティス",
-        "エッジAIの実装パターン",
-        "自律型AIシステムの設計",
-        "ベクトルデータベースの活用法",
-        "AIオーケストレーションの技術",
-        "機械学習パイプラインの最適化",
-        "AIモデルのデプロイメント戦略",
-        "自然言語処理の実践応用",
-        "コンピュータビジョンの最新技術",
-        "強化学習の産業応用"
+        ("AIエージェントの最新動向", "https://github.com/microsoft/autogen"),
+        ("プロンプトエンジニアリングの実践テクニック", "https://github.com/dair-ai/Prompt-Engineering-Guide"),
+        ("マルチモーダルAIの応用事例", "https://github.com/openai/CLIP"),
+        ("RAGシステムの構築ガイド", "https://github.com/langchain-ai/langchain"),
+        ("LLMファインチューニングの手法", "https://github.com/huggingface/peft"),
+        ("AIセキュリティのベストプラクティス", "https://github.com/anthropics/constitutional-ai"),
+        ("エッジAIの実装パターン", "https://github.com/tensorflow/tensorflow-lite"),
+        ("自律型AIシステムの設計", "https://github.com/Significant-Gravitas/AutoGPT"),
+        ("ベクトルデータベースの活用法", "https://github.com/chroma-core/chroma"),
+        ("AIオーケストレーションの技術", "https://github.com/PrefectHQ/prefect"),
+        ("機械学習パイプラインの最適化", "https://github.com/apache/airflow"),
+        ("AIモデルのデプロイメント戦略", "https://github.com/bentoml/BentoML"),
+        ("自然言語処理の実践応用", "https://github.com/explosion/spaCy"),
+        ("コンピュータビジョンの最新技術", "https://github.com/ultralytics/ultralytics"),
+        ("強化学習の産業応用", "https://github.com/ray-project/ray")
     ]
     
     # ランダムにトピックを選択
-    topic = random.choice(topics)
+    topic_data = random.choice(topics)
+    topic = topic_data[0]
+    source_url = topic_data[1]
     jst_now = get_jst_now()
     article_id = f"auto_{int(jst_now.timestamp())}"
     
@@ -144,7 +146,7 @@ def implement_ai_system():
         f.write(f"title: {topic}\n")
         f.write(f"date: {jst_now.strftime('%Y-%m-%d %H:%M')}\n")
         f.write(f"tags: AI, Technology, Tutorial\n")
-        f.write(f"source: https://qiita.com/tags/ai\n")
+        f.write(f"source: {source_url}\n")
         f.write(f"---\n\n")
         f.write(content)
     
