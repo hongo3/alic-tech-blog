@@ -489,6 +489,64 @@
       "corrections": [],
       "final_score": 90,
       "auto_corrected": false
+    },
+    {
+      "article_id": "article_1751135952",
+      "timestamp": "2025-06-29T03:39:12.475901+09:00",
+      "original_score": 88,
+      "issues_found": [
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 1",
+          "original": "---\ntitle: 大規模データ処理の新常識:Apache Spark vs Databricks...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 2",
+          "original": "\n\n### 参考にしたサイトと気づき\n\n#### 1. https://databricks.com...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 3",
+          "original": "\n\n#### 2. https://www.snowflake.com/blog/でのトレンド\n最新...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 5",
+          "original": "\n\n</details>\n\n---\n\n## 🎯 この記事で学べること\n\nこの記事では、以下の点に焦点...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 7",
+          "original": "\n\n### なぜ重要なのか\n\n1. **生産性の向上** - 開発効率が大幅に改善\n2. **品質の...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "missing_error_handling",
+          "severity": "low",
+          "location": "全体",
+          "original": "エラーハンドリングの言及なし",
+          "suggestion": "エラーハンドリングやトラブルシューティングを追加",
+          "auto_correctable": false
+        }
+      ],
+      "corrections": [],
+      "final_score": 88,
+      "auto_corrected": false
     }
   ],
   "common_issues": {},

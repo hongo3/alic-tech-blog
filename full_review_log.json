@@ -260,6 +260,35 @@
         "improvement_rate": 0.08230452674896932,
         "average_score": 84.44444444444444
       }
+    },
+    {
+      "timestamp": "2025-06-29T03:39:12.408672+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 80.4,
+          "rules_updated": false,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "大規模データ処理の新常識:Apache Spark vs Databricks vs Snowflake徹底比較",
+          "category": "data_science",
+          "initial_score": 79.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 88,
+          "issues_found": 6,
+          "corrections_applied": 0,
+          "final_score": 88
+        }
+      },
+      "final_score": 83.5,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.17814726840854092,
+        "average_score": 84.35
+      }
     }
   ],
   "quality_trends": [],
