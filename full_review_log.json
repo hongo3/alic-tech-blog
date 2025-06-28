@@ -57,6 +57,35 @@
         "improvement_rate": 0.5988023952095809,
         "average_score": 84.0
       }
+    },
+    {
+      "timestamp": "2025-06-28T22:37:12.147311+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 74.4,
+          "rules_updated": true,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "Next.js 15完全攻略:App Router×Server Components×Streamingで作る爆速Webアプリ",
+          "category": "web_tech",
+          "initial_score": 79.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 88,
+          "issues_found": 6,
+          "corrections_applied": 0,
+          "final_score": 88
+        }
+      },
+      "final_score": 83.5,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.39920159680638156,
+        "average_score": 83.83333333333333
+      }
     }
   ],
   "quality_trends": [],
