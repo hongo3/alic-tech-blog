@@ -75,20 +75,50 @@
         .article.hidden {
             display: none;
         }
+        
+        /* 記事間のマージンを改善 */
+        .article {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .article:last-child {
+            border-bottom: none;
+        }
+        
+        /* セクション間のマージン */
+        header {
+            margin-bottom: 40px;
+        }
+        
+        .category-tabs {
+            margin-bottom: 40px;
+        }
+        
+        .container {
+            margin-bottom: 60px;
+        }
+        
+        footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 2px solid #e5e7eb;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1 class="glitch" data-text="Alic AI Blog">Alic AI Blog</h1>
         <p class="tagline">24/7 AI-Powered Tech Insights</p>
-        <p class="status">🟢 システム稼働中 | 最終更新: 20:02:20 JST</p>
+        <p class="status">🟢 システム稼働中 | 最終更新: 20:58:29 JST</p>
         <div class="stats-bar">
             <span>📝 総記事数: <strong>5</strong></span>
             <span>🤖 稼働時間: <strong>∞</strong></span>
             <span>⚡ 更新頻度: <strong>30分毎</strong></span>
         </div>
         <div class="category-stats">
-            AI開発: 3件 | データサイエンス: 1件 | インフラ: 1件
+            Web技術: 1件 | AI開発: 2件 | インフラ: 1件 | データサイエンス: 1件
         </div>
     </header>
     
@@ -104,9 +134,27 @@
     
     <div class="container">
         <section id="articles">
+        <article class="article" data-category="web技術">
+            <div class="article-header-info">
+                <h2>Next.js 15完全攻略:App Router×Server Components×Streamingで作る爆速Webアプリ<span class="new-badge">NEW</span></h2>
+                <div class="article-meta-tags">
+                    <span class="category-badge" style="background-color: #48bb78">Web技術</span>
+                    <span class="difficulty-badge">中級</span>
+                    <span class="reading-time">📖 25分</span>
+                </div>
+            </div>
+            <p class="meta">
+                📅 2025-06-28 20:58 | 
+                🏷️ Web, フロントエンド, バックエンド, API
+            </p>
+            <div class="preview">本記事では、最新の技術トレンドを踏まえながら、実践的な実装方法を詳しく解説します。初心者から上級者まで、すべての開発者に役立つ内容です。</div>
+            <a href="articles/article_1751111909.html" class="read-more">
+                続きを読む →
+            </a>
+        </article>
         <article class="article" data-category="ai開発">
             <div class="article-header-info">
-                <h2>【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較<span class="new-badge">NEW</span></h2>
+                <h2>【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較</h2>
                 <div class="article-meta-tags">
                     <span class="category-badge" style="background-color: #667eea">AI開発</span>
                     <span class="difficulty-badge">中級</span>
@@ -115,30 +163,10 @@
             </div>
             <p class="meta">
                 📅 2025-06-28 20:02 | 
-                🏷️ AI, 機械学習, 深層学習, 開発 | 
-                🔗 <a href="https://github.com/microsoft/autogen" target="_blank">参考元</a>
+                🏷️ AI, 機械学習, 深層学習, 開発
             </p>
             <div class="preview">実際のプロジェクトで即座に活用できる実践的な知識をお伝えします。サンプルコードと詳細な解説付き。</div>
             <a href="articles/article_1751108540.html" class="read-more">
-                続きを読む →
-            </a>
-        </article>
-        <article class="article" data-category="データサイエンス">
-            <div class="article-header-info">
-                <h2>大規模データ処理の新常識：Apache Spark vs Databricks vs Snowflake徹底比較</h2>
-                <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #38b2ac">データサイエンス</span>
-                    <span class="difficulty-badge">中級</span>
-                    <span class="reading-time">📖 15分</span>
-                </div>
-            </div>
-            <p class="meta">
-                📅 2025-06-28 16:32 | 
-                🏷️ データ分析, ビッグデータ, 統計, 可視化 | 
-                🔗 <a href="https://github.com/apache/spark" target="_blank">参考元</a>
-            </p>
-            <div class="preview">各技術の特徴を徹底比較。あなたのプロジェクトに最適な選択ができるよう、詳細な分析結果をお届けします。</div>
-            <a href="articles/article_1751095972.html" class="read-more">
                 続きを読む →
             </a>
         </article>
@@ -153,36 +181,34 @@
             </div>
             <p class="meta">
                 📅 2025-06-28 19:36 | 
-                🏷️ クラウド, DevOps, インフラ, 自動化 | 
-                🔗 <a href="https://github.com/argoproj/argo-cd" target="_blank">参考元</a>
+                🏷️ クラウド, DevOps, インフラ, 自動化
             </p>
             <div class="preview">実際のプロジェクトで即座に活用できる実践的な知識をお伝えします。サンプルコードと詳細な解説付き。</div>
             <a href="articles/article_1751106973.html" class="read-more">
                 続きを読む →
             </a>
         </article>
-        <article class="article" data-category="ai開発">
+        <article class="article" data-category="データサイエンス">
             <div class="article-header-info">
-                <h2>AIモデルのファインチューニング手法</h2>
+                <h2>大規模データ処理の新常識：Apache Spark vs Databricks vs Snowflake徹底比較</h2>
                 <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #667eea">AI開発</span>
+                    <span class="category-badge" style="background-color: #38b2ac">データサイエンス</span>
                     <span class="difficulty-badge">中級</span>
-                    <span class="reading-time">📖 5分</span>
+                    <span class="reading-time">📖 15分</span>
                 </div>
             </div>
             <p class="meta">
-                📅 2025-06-28 07:07 | 
-                🏷️ AI, Technology, Tutorial | 
-                🔗 <a href="https://qiita.com/tags/ai" target="_blank">参考元</a>
+                📅 2025-06-28 16:32 | 
+                🏷️ データ分析, ビッグデータ, 統計, 可視化
             </p>
-            <div class="preview">AIモデルのファインチューニング手法について、最新の技術動向と実装方法を解説します。</div>
-            <a href="articles/article_1751094471.html" class="read-more">
+            <div class="preview">各技術の特徴を徹底比較。あなたのプロジェクトに最適な選択ができるよう、詳細な分析結果をお届けします。</div>
+            <a href="articles/article_1751095972.html" class="read-more">
                 続きを読む →
             </a>
         </article>
         <article class="article" data-category="ai開発">
             <div class="article-header-info">
-                <h2>マルチモーダルAIの活用事例</h2>
+                <h2>ベクトルデータベースの選び方</h2>
                 <div class="article-meta-tags">
                     <span class="category-badge" style="background-color: #667eea">AI開発</span>
                     <span class="difficulty-badge">中級</span>
@@ -190,12 +216,11 @@
                 </div>
             </div>
             <p class="meta">
-                📅 2025-06-28 07:03 | 
-                🏷️ AI, Technology, Tutorial | 
-                🔗 <a href="https://qiita.com/tags/ai" target="_blank">参考元</a>
+                📅 2025-06-28 08:51 | 
+                🏷️ AI, Technology, Tutorial
             </p>
-            <div class="preview">マルチモーダルAIの活用事例について、最新の技術動向と実装方法を解説します。</div>
-            <a href="articles/article_1751094231.html" class="read-more">
+            <div class="preview">ベクトルデータベースの選び方について、最新の技術動向と実装方法を解説します。</div>
+            <a href="articles/article_1751100716.html" class="read-more">
                 続きを読む →
             </a>
         </article>
@@ -217,7 +242,7 @@
     
     <footer>
         <p>© 2025 Alic AI Blog - Powered by AI Agents</p>
-        <p>5つのAIエージェントが24時間365日コンテンツを生成中</p>
+        <p>自己改善型AIシステムが24時間365日、より良いコンテンツを生成中</p>
     </footer>
     
     <script>

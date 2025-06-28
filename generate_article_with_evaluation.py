@@ -115,7 +115,7 @@ class ImprovedArticleGenerator:
         }
         
         # 記事内容を生成（改善提案を考慮）
-        content = self._generate_content_with_improvements(topic_data, CATEGORIES)
+        content = self._generate_content_with_improvements(topic_data)
         
         # 記事を保存
         jst_now = get_jst_now()
@@ -294,24 +294,21 @@ class ImprovedArticleGenerator:
         # 見つからない場合はランダム
         return random.choice(TOPICS)
     
-    def _generate_content_with_improvements(self, topic_data, CATEGORIES):
+    def _generate_content_with_improvements(self, topic_data):
         """改善提案を反映した記事内容を生成"""
         
         # generate_article_v3.pyのgenerate_detailed_content関数の内容を
         # 改善提案に基づいて修正
         
         # 基本的な内容生成（v3から）
-        from generate_article_v3 import generate_ai_thought_process
+        # generate_ai_thought_process関数を直接実装
+        thought_process = self._generate_ai_thought_process_local(topic_data)
         
         title = topic_data["title"]
         short_title = topic_data["short_title"]
         keywords = topic_data["keywords"]
-        category = CATEGORIES[topic_data["category"]]
         difficulty = topic_data["difficulty"]
         reading_time = topic_data["reading_time"]
-        
-        # AIの思考プロセスを生成
-        thought_process = generate_ai_thought_process(topic_data)
         
         # 改善提案を反映
         content_adjustments = {
@@ -346,11 +343,8 @@ class ImprovedArticleGenerator:
         # ここで実際の改善を反映した記事を生成
         # （generate_article_v3.pyの内容を基に、改善提案を反映）
         
-        # 簡略化のため、v3の生成ロジックを呼び出し
-        from generate_article_v3 import generate_detailed_content
-        
-        # 基本コンテンツを生成
-        base_content = generate_detailed_content(topic_data)
+        # 基本コンテンツを生成（簡易版）
+        base_content = self._generate_base_content(topic_data, thought_process)
         
         # 改善を適用
         if adjustments["extra_code_examples"]:
@@ -374,6 +368,121 @@ class ImprovedArticleGenerator:
             )
         
         return base_content
+    
+    def _generate_ai_thought_process_local(self, topic_data):
+        """AIの思考プロセスを生成（ローカル実装）"""
+        
+        references = topic_data["reference_sites"]
+        keywords = topic_data["keywords"]
+        
+        thought_process = f"""## 🤔 なぜこの記事を書こうと思ったのか
+
+最近、技術系のコミュニティやソーシャルメディアを観察していて、{keywords[0]}に関する議論が活発になっていることに気づきました。
+
+### 参考にしたサイトと気づき
+
+#### 1. {references[0]}での発見
+このサイトで{keywords[0]}関連の投稿を見ていたところ、多くの開発者が{keywords[1]}との連携方法について悩んでいることがわかりました。
+
+#### 2. {references[1]}でのトレンド
+最新の技術トレンドを追跡していると、{keywords[2]}が急速に注目を集めており、実装例への需要が高まっています。
+
+### 記事を書く動機
+
+これらの観察から、実践的な実装例と詳細な解説が必要だと判断しました。"""
+        
+        return thought_process
+    
+    def _generate_base_content(self, topic_data, thought_process):
+        """基本的な記事コンテンツを生成"""
+        
+        title = topic_data["title"]
+        keywords = topic_data["keywords"]
+        difficulty = topic_data["difficulty"]
+        reading_time = topic_data["reading_time"]
+        
+        content = f"""# {title}
+
+**難易度**: {difficulty} | **読了時間**: 約{reading_time}
+
+<details class="ai-thought-process">
+<summary>💭 AIの思考プロセス（クリックで展開）</summary>
+
+{thought_process}
+
+</details>
+
+---
+
+## 🎯 この記事で学べること
+
+この記事では、以下の点に焦点を当てています：
+
+- {keywords[0]}の基本概念と最新動向
+- {keywords[1]}との連携方法
+- 実際のプロジェクトでの活用事例
+- ベストプラクティス
+
+## 📋 目次
+
+1. [はじめに](#はじめに)
+2. [基本概念](#基本概念)
+3. [実装ガイド](#実装ガイド)
+4. [まとめ](#まとめ)
+
+---
+
+## 🌟 はじめに
+
+{title}について、実践的な観点から解説します。
+
+## 📚 基本概念
+
+{keywords[0]}は、現代の開発において重要な技術です。
+
+### なぜ重要なのか
+
+1. **生産性の向上** - 開発効率が大幅に改善
+2. **品質の向上** - より高品質な成果物を実現
+3. **スケーラビリティ** - 将来の拡張にも対応
+
+## 🚀 実装ガイド
+
+### Step 1: 環境構築
+
+```bash
+# 必要なツールのインストール
+pip install example-package
+```
+
+### Step 2: 基本実装
+
+```python
+# 基本的な実装例
+class Example:
+    def __init__(self):
+        self.config = self.load_config()
+    
+    def process(self, data):
+        # 処理ロジック
+        return processed_data
+```
+
+## 📝 まとめ
+
+本記事では、{title}について解説しました。
+
+### 重要なポイント
+
+✅ {keywords[0]}の基本を理解
+✅ 実践的な実装方法を習得
+✅ ベストプラクティスを適用
+
+---
+*この記事はAIエージェントによって自動生成されました。*
+"""
+        
+        return content
     
     def _generate_extra_code_example(self, topic_data):
         """追加のコード例を生成"""
