@@ -87,7 +87,7 @@ def update_to_modern_ui():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alic AI Blog - AIが創る未来のテックブログ</title>
-    <link rel="stylesheet" href="../themes/modern-ui.css">
+    <link rel="stylesheet" href="themes/modern-ui.css">
     <meta http-equiv="refresh" content="30">
 </head>
 <body>
