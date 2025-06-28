@@ -77,7 +77,7 @@ def convert_md_to_html(md_file_path):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{meta_dict.get('title', 'Alic Blog Article')}</title>
-    <link rel="stylesheet" href="../themes/modern.css">
+    <link rel="stylesheet" href="../themes/article-style.css">
     <style>
         body {{
             max-width: 800px;
