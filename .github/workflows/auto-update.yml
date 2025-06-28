@@ -25,12 +25,12 @@ jobs:
       run: |
         pip install httpx python-dotenv aiofiles
     
-    - name: Generate new article
+    - name: Generate new article with evaluation
       env:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         TZ: 'Asia/Tokyo'
       run: |
-        python generate_article_enhanced.py || echo "Article generation completed"
+        python generate_article_with_evaluation.py || echo "Article generation with evaluation completed"
     
     - name: Commit and push if changed
       env:
