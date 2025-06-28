@@ -30,8 +30,8 @@ def cleanup_old_articles(keep_count=5):
     if not posts_dir.exists():
         return
     
-    # すべての記事ファイルを取得して、ファイル名でソート（新しい順）
-    md_files = sorted(posts_dir.glob("*.md"), key=lambda x: x.name, reverse=True)
+    # すべての記事ファイルを取得して、更新時刻でソート（新しい順）
+    md_files = sorted(posts_dir.glob("*.md"), key=lambda x: x.stat().st_mtime, reverse=True)
     
     if len(md_files) <= keep_count:
         print(f"  現在の記事数: {len(md_files)}件 - クリーンアップ不要")
@@ -166,8 +166,11 @@ def implement_ai_system():
             print("✅ HTML変換完了")
             print(result.stdout)
     
-    # index.htmlを更新
-    await update_index_html(article_id, topic, jst_now)
+    # update_to_modern_ui.pyを使ってindex.htmlを更新
+    if Path("update_to_modern_ui.py").exists():
+        import subprocess
+        print("📝 index.htmlを更新中...")
+        subprocess.run(["python", "update_to_modern_ui.py"])
     
     return topic
 
@@ -259,6 +262,11 @@ async def main():
     if Path("convert_articles.py").exists():
         print("\n📄 HTMLファイルを再生成しています...")
         os.system("python convert_articles.py")
+    
+    # index.htmlを更新
+    if Path("update_to_modern_ui.py").exists():
+        print("📝 index.htmlを最終更新中...")
+        os.system("python update_to_modern_ui.py")
     
     print(f"\n✅ Successfully generated article: {topic}")
     print(f"✅ クリーンアップ完了 - 最新5記事を保持")
