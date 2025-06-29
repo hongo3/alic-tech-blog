@@ -10472,6 +10472,154 @@
         "記事冒頭にAIの思考プロセスを追加",
         "文章とコードのバランスを調整（目標: 70:30）"
       ]
+    },
+    {
+      "article_path": "posts/article_1751135952.md",
+      "timestamp": "2025-06-30T07:35:48.513713+09:00",
+      "metadata": {
+        "title": "大規模データ処理の新常識:Apache Spark vs Databricks vs Snowflake徹底比較",
+        "date": "2025-06-29 03:39",
+        "category": "データサイエンス",
+        "tags": "データ分析, ビッグデータ, 統計, 可視化",
+        "difficulty": "中級",
+        "reading_time": "30分",
+        "evaluation_aware": "true"
+      },
+      "scores": {
+        "technical_accuracy": 21.0,
+        "readability": 25.0,
+        "practicality": 20.0,
+        "originality": 13.0
+      },
+      "total_score": 79.0,
+      "strengths": [
+        "technical_accuracy: 優秀なスコア (21.0/25)",
+        "readability: 優秀なスコア (25.0/25)",
+        "practicality: 優秀なスコア (20.0/25)",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [
+        "originality: 改善が必要 (13.0/25)"
+      ],
+      "improvement_suggestions": [
+        "より多くのコード例を追加",
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1751127590.md",
+      "timestamp": "2025-06-30T07:35:48.513881+09:00",
+      "metadata": {
+        "title": "LangChainを使ったAIアプリケーション開発",
+        "date": "2025-06-28 16:19",
+        "tags": "AI, Technology, Tutorial",
+        "source": "https://qiita.com/tags/ai"
+      },
+      "scores": {
+        "technical_accuracy": 13.0,
+        "readability": 15.0,
+        "practicality": 15.0,
+        "originality": 10.0
+      },
+      "total_score": 53.0,
+      "strengths": [],
+      "weaknesses": [
+        "technical_accuracy: 改善が必要 (13.0/25)",
+        "originality: 改善が必要 (10.0/25)",
+        "AIの思考プロセスセクションが不足"
+      ],
+      "improvement_suggestions": [
+        "より多くのコード例を追加",
+        "記事冒頭にAIの思考プロセスを追加",
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1751127350.md",
+      "timestamp": "2025-06-30T07:35:48.514002+09:00",
+      "metadata": {
+        "title": "プロンプトエンジニアリングの最新テクニック",
+        "date": "2025-06-28 16:15",
+        "tags": "AI, Technology, Tutorial",
+        "source": "https://qiita.com/tags/ai"
+      },
+      "scores": {
+        "technical_accuracy": 13.0,
+        "readability": 15.0,
+        "practicality": 15.0,
+        "originality": 10.0
+      },
+      "total_score": 53.0,
+      "strengths": [],
+      "weaknesses": [
+        "technical_accuracy: 改善が必要 (13.0/25)",
+        "originality: 改善が必要 (10.0/25)",
+        "AIの思考プロセスセクションが不足"
+      ],
+      "improvement_suggestions": [
+        "より多くのコード例を追加",
+        "記事冒頭にAIの思考プロセスを追加",
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1751128053_1.md",
+      "timestamp": "2025-06-30T07:35:48.514132+09:00",
+      "metadata": {
+        "title": "マルチエージェントシステムの実装ガイド",
+        "date": "2025-06-28 16:27",
+        "tags": "Architecture, System Design, AI Agents",
+        "source": "https://zenn.dev/"
+      },
+      "scores": {
+        "technical_accuracy": 22.5,
+        "readability": 12.0,
+        "practicality": 10.0,
+        "originality": 10.0
+      },
+      "total_score": 54.5,
+      "strengths": [
+        "technical_accuracy: 優秀なスコア (22.5/25)"
+      ],
+      "weaknesses": [
+        "readability: 改善が必要 (12.0/25)",
+        "practicality: 改善が必要 (10.0/25)",
+        "originality: 改善が必要 (10.0/25)",
+        "AIの思考プロセスセクションが不足"
+      ],
+      "improvement_suggestions": [
+        "より多くのコード例を追加",
+        "記事冒頭にAIの思考プロセスを追加",
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1751126389.md",
+      "timestamp": "2025-06-30T07:35:48.514230+09:00",
+      "metadata": {
+        "title": "プロンプトエンジニアリングの最新テクニック",
+        "date": "2025-06-28 15:59",
+        "tags": "AI, Technology, Tutorial",
+        "source": "https://qiita.com/tags/ai"
+      },
+      "scores": {
+        "technical_accuracy": 13.0,
+        "readability": 15.0,
+        "practicality": 15.0,
+        "originality": 10.0
+      },
+      "total_score": 53.0,
+      "strengths": [],
+      "weaknesses": [
+        "technical_accuracy: 改善が必要 (13.0/25)",
+        "originality: 改善が必要 (10.0/25)",
+        "AIの思考プロセスセクションが不足"
+      ],
+      "improvement_suggestions": [
+        "より多くのコード例を追加",
+        "記事冒頭にAIの思考プロセスを追加",
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
     }
   ],
   "rule_updates": [],
