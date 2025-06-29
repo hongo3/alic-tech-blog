@@ -28,6 +28,37 @@
         "improvement_rate": 0,
         "average_score": 83.5
       }
+    },
+    {
+      "timestamp": "2025-06-28T22:10:53.538069+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 74.4,
+          "rules_updated": true,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
+          "category": "ai_development",
+          "initial_score": 90.0,
+          "improvements_applied": 0,
+          "character_count": 1864,
+          "production_time": 0.02
+        },
+        "proofreading": {
+          "original_score": 89,
+          "issues_found": 4,
+          "corrections_applied": 0,
+          "final_score": 89
+        }
+      },
+      "final_score": 89.5,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 3.592814371257485,
+        "average_score": 86.5
+      }
     }
   ],
   "quality_trends": [],

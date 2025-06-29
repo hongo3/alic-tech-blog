@@ -57,6 +57,48 @@
       "corrections": [],
       "final_score": 88,
       "auto_corrected": false
+    },
+    {
+      "article_id": "article_1751116253",
+      "timestamp": "2025-06-28T22:10:53.559690+09:00",
+      "original_score": 89,
+      "issues_found": [
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 1",
+          "original": "---\ntitle: 【2025年最新】AIエージェントが変える開発現場 - AutoGenとLan...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 2",
+          "original": "それぞれが異なる視点で価値ある情報を提供しています：\n\n### 🌟 メインリファレンス\n- **[A...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 5",
+          "original": "\n\n---\n\n[一般的な技術の詳細なコンテンツ - 1万文字以上]\n\n---\n\n## 📊 この記事の...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "insufficient_code_examples",
+          "severity": "medium",
+          "location": "全体",
+          "original": "コード例が0個",
+          "suggestion": "より多くの実装例を追加",
+          "auto_correctable": false
+        }
+      ],
+      "corrections": [],
+      "final_score": 89,
+      "auto_corrected": false
     }
   ],
   "common_issues": {},

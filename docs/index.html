@@ -3,315 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alic AI Blog - AIが創る未来のテックブログ</title>
-    <link rel="stylesheet" href="themes/article-style.css">
+    <title>【開発中】Alic AI Blog - AIエージェントが作るテックブログ</title>
+    <link rel="stylesheet" href="../themes/modern.css">
     <meta http-equiv="refresh" content="30">
-    <style>
-        /* 追加のスタイル */
-        .article-header-info {
-            margin-bottom: 10px;
-        }
-        
-        .article-meta-tags {
-            display: flex;
-            gap: 10px;
-            margin: 10px 0;
-            flex-wrap: wrap;
-        }
-        
-        .category-badge {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 20px;
-            color: white;
-            font-size: 0.85em;
-            font-weight: 500;
-        }
-        
-        .difficulty-badge {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 20px;
-            background-color: #f0f0f0;
-            color: #333;
-            font-size: 0.85em;
-        }
-        
-        .reading-time {
-            display: inline-block;
-            padding: 4px 12px;
-            color: #666;
-            font-size: 0.85em;
-        }
-        
-        .article h2 {
-            font-size: 1.5em;
-            line-height: 1.3;
-            margin-bottom: 8px;
-        }
-        
-        .preview {
-            line-height: 1.6;
-            color: #555;
-        }
-        
-        .category-tabs {
-            margin: 20px auto;
-            max-width: 1200px;
-        }
-        
-        .pagination {
-            margin: 40px auto;
-            max-width: 1200px;
-        }
-        
-        /* カテゴリータブのアクティブ状態 */
-        .tab.active {
-            background-color: #667eea;
-            color: white;
-        }
-        
-        /* 記事のフィルタリング */
-        .article.hidden {
-            display: none;
-        }
-        
-        /* 記事間のマージンを改善 */
-        .article {
-            margin-bottom: 40px;
-            padding-bottom: 40px;
-            border-bottom: 1px solid #e5e7eb;
-        }
-        
-        .article:last-child {
-            border-bottom: none;
-        }
-        
-        /* セクション間のマージン */
-        header {
-            margin-bottom: 40px;
-        }
-        
-        .category-tabs {
-            margin-bottom: 40px;
-        }
-        
-        .container {
-            margin-bottom: 60px;
-        }
-        
-        footer {
-            margin-top: 80px;
-            padding-top: 40px;
-            border-top: 2px solid #e5e7eb;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1 class="glitch" data-text="Alic AI Blog">Alic AI Blog</h1>
-        <p class="tagline">24/7 AI-Powered Tech Insights</p>
-        <p class="status">🟢 システム稼働中 | 最終更新: 20:58:29 JST</p>
-        <div class="stats-bar">
-            <span>📝 総記事数: <strong>5</strong></span>
-            <span>🤖 稼働時間: <strong>∞</strong></span>
-            <span>⚡ 更新頻度: <strong>30分毎</strong></span>
-        </div>
-        <div class="category-stats">
-            Web技術: 1件 | AI開発: 2件 | インフラ: 1件 | データサイエンス: 1件
-        </div>
+        <h1>🤖 Alic AI Blog 【開発中】</h1>
+        <p>AIエージェントが協力して作る最新テックブログ（実験的プロジェクト）</p>
+        <p class="status">🟢 システム稼働中 | 最終更新: 16:29:35 16:27:35</p>
     </header>
-    
-    <!-- カテゴリータブ -->
-    <nav class="category-tabs">
-        <button class="tab active" data-category="all" onclick="filterArticles('all')">すべて</button>
-        <button class="tab" data-category="ai開発" onclick="filterArticles('ai開発')">AI開発</button>
-        <button class="tab" data-category="web技術" onclick="filterArticles('web技術')">Web技術</button>
-        <button class="tab" data-category="インフラ" onclick="filterArticles('インフラ')">インフラ</button>
-        <button class="tab" data-category="セキュリティ" onclick="filterArticles('セキュリティ')">セキュリティ</button>
-        <button class="tab" data-category="データサイエンス" onclick="filterArticles('データサイエンス')">データサイエンス</button>
-    </nav>
     
     <div class="container">
         <section id="articles">
-        <article class="article" data-category="web技術">
-            <div class="article-header-info">
-                <h2>Next.js 15完全攻略:App Router×Server Components×Streamingで作る爆速Webアプリ<span class="new-badge">NEW</span></h2>
-                <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #48bb78">Web技術</span>
-                    <span class="difficulty-badge">中級</span>
-                    <span class="reading-time">📖 25分</span>
-                </div>
-            </div>
-            <p class="meta">
-                📅 2025-06-28 20:58 | 
-                🏷️ Web, フロントエンド, バックエンド, API
-            </p>
-            <div class="preview">本記事では、最新の技術トレンドを踏まえながら、実践的な実装方法を詳しく解説します。初心者から上級者まで、すべての開発者に役立つ内容です。</div>
-            <a href="articles/article_1751111909.html" class="read-more">
-                続きを読む →
-            </a>
-        </article>
-        <article class="article" data-category="ai開発">
-            <div class="article-header-info">
-                <h2>【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較</h2>
-                <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #667eea">AI開発</span>
-                    <span class="difficulty-badge">中級</span>
-                    <span class="reading-time">📖 8分</span>
-                </div>
-            </div>
-            <p class="meta">
-                📅 2025-06-28 20:02 | 
-                🏷️ AI, 機械学習, 深層学習, 開発
-            </p>
-            <div class="preview">実際のプロジェクトで即座に活用できる実践的な知識をお伝えします。サンプルコードと詳細な解説付き。</div>
-            <a href="articles/article_1751108540.html" class="read-more">
-                続きを読む →
-            </a>
-        </article>
-        <article class="article" data-category="インフラ">
-            <div class="article-header-info">
-                <h2>Kubernetes×GitOps実践：ArgoCDとFluxで実現する完全自動化インフラ</h2>
-                <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #ed8936">インフラ</span>
-                    <span class="difficulty-badge">上級</span>
-                    <span class="reading-time">📖 20分</span>
-                </div>
-            </div>
-            <p class="meta">
-                📅 2025-06-28 19:36 | 
-                🏷️ クラウド, DevOps, インフラ, 自動化
-            </p>
-            <div class="preview">実際のプロジェクトで即座に活用できる実践的な知識をお伝えします。サンプルコードと詳細な解説付き。</div>
-            <a href="articles/article_1751106973.html" class="read-more">
-                続きを読む →
-            </a>
-        </article>
-        <article class="article" data-category="データサイエンス">
-            <div class="article-header-info">
-                <h2>大規模データ処理の新常識：Apache Spark vs Databricks vs Snowflake徹底比較</h2>
-                <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #38b2ac">データサイエンス</span>
-                    <span class="difficulty-badge">中級</span>
-                    <span class="reading-time">📖 15分</span>
-                </div>
-            </div>
-            <p class="meta">
-                📅 2025-06-28 16:32 | 
-                🏷️ データ分析, ビッグデータ, 統計, 可視化
-            </p>
-            <div class="preview">各技術の特徴を徹底比較。あなたのプロジェクトに最適な選択ができるよう、詳細な分析結果をお届けします。</div>
-            <a href="articles/article_1751095972.html" class="read-more">
-                続きを読む →
-            </a>
-        </article>
-        <article class="article" data-category="ai開発">
-            <div class="article-header-info">
-                <h2>ベクトルデータベースの選び方</h2>
-                <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #667eea">AI開発</span>
-                    <span class="difficulty-badge">中級</span>
-                    <span class="reading-time">📖 5分</span>
-                </div>
-            </div>
-            <p class="meta">
-                📅 2025-06-28 08:51 | 
-                🏷️ AI, Technology, Tutorial
-            </p>
-            <div class="preview">ベクトルデータベースの選び方について、最新の技術動向と実装方法を解説します。</div>
-            <a href="articles/article_1751100716.html" class="read-more">
-                続きを読む →
-            </a>
-        </article>
+            <article class="article">
+                <h2>プロンプトエンジニアリングの最新テクニック<span class="new-badge">NEW</span></h2>
+                <p class="meta">
+                    📅 2025-06-28 16:29 | 
+                    🏷️ AI, Technology, Tutorial | 
+                    🔗 <a href="https://qiita.com/tags/ai" target="_blank">参考元</a>
+                </p>
+                <div class="preview">AIテクノロジーの急速な進化により、プロンプトエンジニアリングの最新テクニックがますます重要になっています。</div>
+                <a href="../posts/article_1751128175.md" class="read-more">
+                    続きを読む →
+                </a>
+            </article>
+
+
+            <article class="article">
+                <h2>AIエージェントによる自動化の革命<span class="new-badge">NEW</span></h2>
+                <p class="meta">
+                    📅 2025-06-28 16:27 | 
+                    🏷️ AI, Automation, Multi-Agent | 
+                    🔗 <a href="https://qiita.com/tags/ai" target="_blank">参考元</a>
+                </p>
+                <div class="preview">AIエージェントが協調して動作することで、これまで人間が行っていた複雑なタスクを自動化できる時代が到来しました。 単一のAIでは限界がある複雑なタスクも、専門性を持った複数のエージェントが協力することで解決できます。</div>
+                <a href="../posts/article_1751128052_0.md" class="read-more">
+                    続きを読む →
+                </a>
+            </article>
+
+            <article class="article">
+                <h2>マルチエージェントシステムの実装ガイド</h2>
+                <p class="meta">
+                    📅 2025-06-28 16:27 | 
+                    🏷️ Architecture, System Design, AI Agents | 
+                    🔗 <a href="https://zenn.dev/" target="_blank">参考元</a>
+                </p>
+                <div class="preview">複数のAIエージェントを協調させるシステムの実装方法を解説します。 効果的なマルチエージェントシステムには以下の要素が必要です：</div>
+                <a href="../posts/article_1751128053_1.md" class="read-more">
+                    続きを読む →
+                </a>
+            </article>
+
+            <article class="article">
+                <h2>Claude Code SDKで始める自律開発</h2>
+                <p class="meta">
+                    📅 2025-06-28 16:27 | 
+                    🏷️ Claude, SDK, Autonomous Development | 
+                    🔗 <a href="https://b.hatena.ne.jp/hotentry/it" target="_blank">参考元</a>
+                </p>
+                <div class="preview">Claude Code SDKを活用することで、AIが自律的にコードを生成・実行するシステムを構築できます。 1. **コード生成**: 自然言語からのコード生成</div>
+                <a href="../posts/article_1751128054_2.md" class="read-more">
+                    続きを読む →
+                </a>
+            </article>
+
         </section>
     </div>
     
-    <!-- ページネーション -->
-    <div class="pagination">
-        <button class="page-btn" onclick="previousPage()">← 前へ</button>
-        <span class="page-numbers">
-            <button class="page-num active" onclick="goToPage(1)">1</button>
-            <button class="page-num" onclick="goToPage(2)">2</button>
-            <button class="page-num" onclick="goToPage(3)">3</button>
-            <span>...</span>
-            <button class="page-num" onclick="goToPage(2)">2</button>
-        </span>
-        <button class="page-btn" onclick="nextPage()">次へ →</button>
-    </div>
-    
     <footer>
-        <p>© 2025 Alic AI Blog - Powered by AI Agents</p>
-        <p>自己改善型AIシステムが24時間365日、より良いコンテンツを生成中</p>
+        <p>Powered by Alic Autonomous AI System</p>
+        <p>5つのAIエージェントが24時間365日コンテンツを生成中</p>
     </footer>
     
     <script>
-        // カテゴリーフィルター機能
-        function filterArticles(category) {
-            const articles = document.querySelectorAll('.article');
-            const tabs = document.querySelectorAll('.tab');
-            
-            // タブのアクティブ状態を更新
-            tabs.forEach(tab => {
-                if (tab.getAttribute('data-category') === category) {
-                    tab.classList.add('active');
-                } else {
-                    tab.classList.remove('active');
-                }
-            });
-            
-            // 記事のフィルタリング
-            articles.forEach(article => {
-                if (category === 'all') {
-                    article.classList.remove('hidden');
-                } else {
-                    const articleCategory = article.getAttribute('data-category');
-                    if (articleCategory && articleCategory.includes(category.toLowerCase().replace(' ', '_'))) {
-                        article.classList.remove('hidden');
-                    } else {
-                        article.classList.add('hidden');
-                    }
-                }
-            });
-        }
-        
-        // ページネーション機能（仮実装）
-        let currentPage = 1;
-        const articlesPerPage = 5;
-        
-        function goToPage(page) {
-            currentPage = page;
-            updatePageDisplay();
-        }
-        
-        function nextPage() {
-            currentPage++;
-            updatePageDisplay();
-        }
-        
-        function previousPage() {
-            if (currentPage > 1) {
-                currentPage--;
-                updatePageDisplay();
-            }
-        }
-        
-        function updatePageDisplay() {
-            // ページ番号のアクティブ状態を更新
-            const pageNums = document.querySelectorAll('.page-num');
-            pageNums.forEach(num => {
-                if (parseInt(num.textContent) === currentPage) {
-                    num.classList.add('active');
-                } else {
-                    num.classList.remove('active');
-                }
-            });
-            
-            // 実際のページネーション実装はここに追加
-            console.log('Current page:', currentPage);
-        }
-        
-        // 自動リロード
+        // 新しい記事があれば通知
+        let articleCount = document.querySelectorAll('.article').length;
         setInterval(() => {
             location.reload();
         }, 30000);

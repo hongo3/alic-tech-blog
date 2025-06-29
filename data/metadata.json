@@ -1,11 +1,11 @@
 {
-  "last_updated": "2025-06-27T10:04:53.838945",
+  "last_updated": "2025-06-28T16:27:35.756025",
   "total_articles": 3,
   "articles": [
     {
-      "id": "article_1750986290_0",
+      "id": "article_1751128052_0",
       "title": "AIエージェントによる自動化の革命",
-      "date": "2025-06-27 10:04",
+      "date": "2025-06-28 16:27",
       "tags": [
         "AI",
         "Automation",
@@ -13,9 +13,9 @@
       ]
     },
     {
-      "id": "article_1750986291_1",
+      "id": "article_1751128053_1",
       "title": "マルチエージェントシステムの実装ガイド",
-      "date": "2025-06-27 10:04",
+      "date": "2025-06-28 16:27",
       "tags": [
         "Architecture",
         "System Design",
@@ -23,9 +23,9 @@
       ]
     },
     {
-      "id": "article_1750986292_2",
+      "id": "article_1751128054_2",
       "title": "Claude Code SDKで始める自律開発",
-      "date": "2025-06-27 10:04",
+      "date": "2025-06-28 16:27",
       "tags": [
         "Claude",
         "SDK",

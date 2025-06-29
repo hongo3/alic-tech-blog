@@ -131,7 +131,7 @@ def update_to_modern_ui():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alic AI Blog - AIが創る未来のテックブログ</title>
+    <title>【開発中】Alic AI Blog - AIが創る未来のテックブログ（実験的プロジェクト）</title>
     <link rel="stylesheet" href="themes/article-style.css">
     <meta http-equiv="refresh" content="30">
     <style>
@@ -237,8 +237,8 @@ def update_to_modern_ui():
 </head>
 <body>
     <header>
-        <h1 class="glitch" data-text="Alic AI Blog">Alic AI Blog</h1>
-        <p class="tagline">24/7 AI-Powered Tech Insights</p>
+        <h1 class="glitch" data-text="Alic AI Blog【開発中】">Alic AI Blog【開発中】</h1>
+        <p class="tagline">24/7 AI-Powered Tech Insights（実験的プロジェクト）</p>
         <p class="status">🟢 システム稼働中 | 最終更新: {jst_now.strftime('%H:%M:%S')} JST</p>
         <div class="stats-bar">
             <span>📝 総記事数: <strong>{total_articles}</strong></span>
@@ -279,8 +279,8 @@ def update_to_modern_ui():
     </div>
     
     <footer>
-        <p>© 2025 Alic AI Blog - Powered by AI Agents</p>
-        <p>自己改善型AIシステムが24時間365日、より良いコンテンツを生成中</p>
+        <p>© 2025 Alic AI Blog【開発中】 - Powered by AI Agents</p>
+        <p>🚧 このブログは開発中のAIシステムです。品質向上のため継続的に改善されています 🚧</p>
     </footer>
     
     <script>
