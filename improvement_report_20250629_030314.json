@@ -1,0 +1,132 @@
+{
+  "timestamp": "2025-06-29T03:03:14.638079+09:00",
+  "articles_evaluated": 5,
+  "average_score": 79.8,
+  "rules_updated": true,
+  "rule_evaluation": {
+    "timestamp": "2025-06-29T03:03:14.637611+09:00",
+    "current_effectiveness": 79.79999999999998,
+    "suggested_updates": [
+      {
+        "rule": "独自性の要件を更新",
+        "action": "複数技術の組み合わせを必須に、より深い分析を要求",
+        "priority": "medium"
+      },
+      {
+        "rule": "originality: 改善が必要 (13.0/25)に対するルール追加",
+        "action": "明確な基準とチェックリストを追加",
+        "priority": "high"
+      }
+    ],
+    "rationale": [
+      "独自性スコアが目標を下回っている",
+      "originality: 改善が必要 (13.0/25)が3記事で発生"
+    ]
+  },
+  "recent_evaluations": [
+    {
+      "article_path": "posts/article_1751108540.md",
+      "timestamp": "2025-06-29T03:03:14.634981+09:00",
+      "metadata": {
+        "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
+        "date": "2025-06-28 20:02",
+        "category": "AI開発",
+        "tags": "AI, 機械学習, 深層学習, 開発",
+        "source": "https://github.com/microsoft/autogen",
+        "difficulty": "中級",
+        "reading_time": "8分"
+      },
+      "scores": {
+        "technical_accuracy": 15.0,
+        "readability": 20.0,
+        "practicality": 22.0,
+        "originality": 23.0
+      },
+      "total_score": 80.0,
+      "strengths": [
+        "readability: 優秀なスコア (20.0/25)",
+        "practicality: 優秀なスコア (22.0/25)",
+        "originality: 優秀なスコア (23.0/25)",
+        "豊富なコード例"
+      ],
+      "weaknesses": [
+        "AIの思考プロセスセクションが不足"
+      ],
+      "improvement_suggestions": [
+        "記事冒頭にAIの思考プロセスを追加",
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1751126580.md",
+      "timestamp": "2025-06-29T03:03:14.635268+09:00",
+      "metadata": {
+        "title": "Kubernetes×GitOps実践:ArgoCDとFluxで実現する完全自動化インフラ",
+        "date": "2025-06-29 01:03",
+        "category": "インフラ",
+        "tags": "クラウド, DevOps, インフラ, 自動化",
+        "difficulty": "上級",
+        "reading_time": "35分",
+        "evaluation_aware": "true"
+      },
+      "scores": {
+        "technical_accuracy": 21.0,
+        "readability": 25.0,
+        "practicality": 20.0,
+        "originality": 16.0
+      },
+      "total_score": 82.0,
+      "strengths": [
+        "technical_accuracy: 優秀なスコア (21.0/25)",
+        "readability: 優秀なスコア (25.0/25)",
+        "practicality: 優秀なスコア (20.0/25)",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [],
+      "improvement_suggestions": [
+        "より多くのコード例を追加",
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1751132061.md",
+      "timestamp": "2025-06-29T03:03:14.635480+09:00",
+      "metadata": {
+        "title": "大規模データ処理の新常識:Apache Spark vs Databricks vs Snowflake徹底比較",
+        "date": "2025-06-29 02:34",
+        "category": "データサイエンス",
+        "tags": "データ分析, ビッグデータ, 統計, 可視化",
+        "difficulty": "中級",
+        "reading_time": "30分",
+        "evaluation_aware": "true"
+      },
+      "scores": {
+        "technical_accuracy": 21.0,
+        "readability": 25.0,
+        "practicality": 20.0,
+        "originality": 13.0
+      },
+      "total_score": 79.0,
+      "strengths": [
+        "technical_accuracy: 優秀なスコア (21.0/25)",
+        "readability: 優秀なスコア (25.0/25)",
+        "practicality: 優秀なスコア (20.0/25)",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [
+        "originality: 改善が必要 (13.0/25)"
+      ],
+      "improvement_suggestions": [
+        "より多くのコード例を追加",
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    }
+  ],
+  "improvement_trends": {
+    "trend": "declining",
+    "improvement_rate": 0.0,
+    "recent_average": 80.1,
+    "historical_average": 80.1,
+    "evaluation_count": 70
+  }
+}

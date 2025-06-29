@@ -30,7 +30,7 @@
       }
     },
     {
-      "timestamp": "2025-06-28T22:10:53.538069+09:00",
+      "timestamp": "2025-06-28T21:44:05.493449+09:00",
       "phases": {
         "evaluation": {
           "average_score": 74.4,
@@ -38,26 +38,256 @@
           "improvement_suggestions": 2
         },
         "generation": {
-          "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
-          "category": "ai_development",
-          "initial_score": 90.0,
-          "improvements_applied": 0,
-          "character_count": 1864,
-          "production_time": 0.02
+          "title": "ゼロトラストセキュリティ実装ガイド:BeyondCorpモデルで作る次世代認証基盤",
+          "category": "security",
+          "initial_score": 79.0,
+          "improvements_applied": 2
         },
         "proofreading": {
-          "original_score": 89,
-          "issues_found": 4,
+          "original_score": 90,
+          "issues_found": 5,
           "corrections_applied": 0,
-          "final_score": 89
+          "final_score": 90
         }
       },
-      "final_score": 89.5,
+      "final_score": 84.5,
       "published": true,
       "quality_trend": {
         "direction": "安定 ➡️",
-        "improvement_rate": 3.592814371257485,
-        "average_score": 86.5
+        "improvement_rate": 0.5988023952095809,
+        "average_score": 84.0
+      }
+    },
+    {
+      "timestamp": "2025-06-28T22:37:12.147311+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 74.4,
+          "rules_updated": true,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "Next.js 15完全攻略:App Router×Server Components×Streamingで作る爆速Webアプリ",
+          "category": "web_tech",
+          "initial_score": 79.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 88,
+          "issues_found": 6,
+          "corrections_applied": 0,
+          "final_score": 88
+        }
+      },
+      "final_score": 83.5,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.39920159680638156,
+        "average_score": 83.83333333333333
+      }
+    },
+    {
+      "timestamp": "2025-06-29T00:02:48.686775+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 79.6,
+          "rules_updated": true,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
+          "category": "ai_development",
+          "initial_score": 82.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 90,
+          "issues_found": 5,
+          "corrections_applied": 0,
+          "final_score": 90
+        }
+      },
+      "final_score": 86.0,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.4464285714285714,
+        "average_score": 84.375
+      }
+    },
+    {
+      "timestamp": "2025-06-29T01:03:00.086929+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 80.0,
+          "rules_updated": false,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "Kubernetes×GitOps実践:ArgoCDとFluxで実現する完全自動化インフラ",
+          "category": "infrastructure",
+          "initial_score": 82.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 85,
+          "issues_found": 6,
+          "corrections_applied": 0,
+          "final_score": 85
+        }
+      },
+      "final_score": 83.5,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.2380952380952415,
+        "average_score": 84.2
+      }
+    },
+    {
+      "timestamp": "2025-06-29T01:37:55.444221+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 80.4,
+          "rules_updated": false,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "大規模データ処理の新常識:Apache Spark vs Databricks vs Snowflake徹底比較",
+          "category": "data_science",
+          "initial_score": 79.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 88,
+          "issues_found": 6,
+          "corrections_applied": 0,
+          "final_score": 88
+        }
+      },
+      "final_score": 83.5,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.29821073558648115,
+        "average_score": 84.08333333333333
+      }
+    },
+    {
+      "timestamp": "2025-06-29T02:02:25.542089+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 79.8,
+          "rules_updated": true,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
+          "category": "ai_development",
+          "initial_score": 82.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 90,
+          "issues_found": 5,
+          "corrections_applied": 0,
+          "final_score": 90
+        }
+      },
+      "final_score": 86.0,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.6248224936097805,
+        "average_score": 84.35714285714286
+      }
+    },
+    {
+      "timestamp": "2025-06-29T02:34:21.240499+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 80.4,
+          "rules_updated": false,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "大規模データ処理の新常識:Apache Spark vs Databricks vs Snowflake徹底比較",
+          "category": "data_science",
+          "initial_score": 79.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 88,
+          "issues_found": 6,
+          "corrections_applied": 0,
+          "final_score": 88
+        }
+      },
+      "final_score": 83.5,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": -0.14814814814814814,
+        "average_score": 84.25
+      }
+    },
+    {
+      "timestamp": "2025-06-29T03:03:14.628271+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 79.8,
+          "rules_updated": true,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
+          "category": "ai_development",
+          "initial_score": 82.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 90,
+          "issues_found": 5,
+          "corrections_applied": 0,
+          "final_score": 90
+        }
+      },
+      "final_score": 86.0,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.08230452674896932,
+        "average_score": 84.44444444444444
+      }
+    },
+    {
+      "timestamp": "2025-06-29T03:39:12.408672+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 80.4,
+          "rules_updated": false,
+          "improvement_suggestions": 2
+        },
+        "generation": {
+          "title": "大規模データ処理の新常識:Apache Spark vs Databricks vs Snowflake徹底比較",
+          "category": "data_science",
+          "initial_score": 79.0,
+          "improvements_applied": 2
+        },
+        "proofreading": {
+          "original_score": 88,
+          "issues_found": 6,
+          "corrections_applied": 0,
+          "final_score": 88
+        }
+      },
+      "final_score": 83.5,
+      "published": true,
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 0.17814726840854092,
+        "average_score": 84.35
       }
     }
   ],

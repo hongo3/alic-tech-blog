@@ -63,6 +63,57 @@
         .pagination {
             margin: 40px auto;
             max-width: 1200px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .page-btn {
+            padding: 8px 16px;
+            background-color: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .page-btn:hover {
+            background-color: #5a6fd8;
+        }
+        
+        .page-btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .page-numbers {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        
+        .page-num {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            background-color: white;
+            cursor: pointer;
+            text-decoration: none;
+            border-radius: 3px;
+            color: #333;
+        }
+        
+        .page-num.active {
+            background-color: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .page-num:hover:not(.active) {
+            background-color: #f5f5f5;
         }
         
         /* カテゴリータブのアクティブ状態 */
@@ -111,14 +162,15 @@
     <header>
         <h1 class="glitch" data-text="Alic AI Blog">Alic AI Blog</h1>
         <p class="tagline">24/7 AI-Powered Tech Insights</p>
-        <p class="status">🟢 システム稼働中 | 最終更新: 03:39:12 JST</p>
+        <p class="status">🟢 システム稼働中 | 最終更新: 22:37:21 JST</p>
         <div class="stats-bar">
-            <span>📝 総記事数: <strong>5</strong></span>
+            <span>📝 総記事数: <strong>8</strong></span>
             <span>🤖 稼働時間: <strong>∞</strong></span>
             <span>⚡ 更新頻度: <strong>30分毎</strong></span>
+            <span>📄 ページ: <strong>1/2</strong></span>
         </div>
         <div class="category-stats">
-            データサイエンス: 1件 | セキュリティ: 1件 | Web技術: 1件 | AI開発: 1件 | インフラ: 1件
+            Web技術: 2件 | セキュリティ: 2件 | ai_development: 1件 | AI開発: 1件 | インフラ: 1件 | データサイエンス: 1件
         </div>
     </header>
     
@@ -134,39 +186,76 @@
     
     <div class="container">
         <section id="articles">
-        <article class="article" data-category="データサイエンス">
+        
+        <article class="article" data-category="web技術">
             <div class="article-header-info">
-                <h2>大規模データ処理の新常識:Apache Spark vs Databricks vs Snowflake徹底比較<span class="new-badge">NEW</span></h2>
+                <h2>Svelte 4 + SvelteKit: 軽量フロントエンドフレームワークの本格活用</h2>
                 <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #38b2ac">データサイエンス</span>
+                    <span class="category-badge" style="background-color: #48bb78">Web技術</span>
                     <span class="difficulty-badge">中級</span>
-                    <span class="reading-time">📖 30分</span>
+                    <span class="reading-time">📖 22分</span>
                 </div>
             </div>
             <p class="meta">
-                📅 2025-06-29 03:39 | 
-                🏷️ データ分析, ビッグデータ, 統計, 可視化
+                📅 2025-06-28 22:37 | 
+                🏷️ Svelte, SvelteKit, フロントエンド, 軽量
             </p>
-            <div class="preview">各技術の特徴を徹底比較。あなたのプロジェクトに最適な選択ができるよう、詳細な分析結果をお届けします。</div>
-            <a href="articles/article_1751135952.html" class="read-more">
+            <div class="preview">難易度: 中級 | 読了時間: 約22分 | 制作時間: 0.0秒 最近の技術動向を分析していて、Svelteに関する以下の重要な変化に気づきました： - GitHub上でSvelte関連のリポジトリのスター数が急増</div>
+            <a href="articles/article_1751117835.html" class="read-more">
                 続きを読む →
             </a>
         </article>
         <article class="article" data-category="セキュリティ">
             <div class="article-header-info">
-                <h2>ゼロトラストセキュリティ実装ガイド:BeyondCorpモデルで作る次世代認証基盤</h2>
+                <h2>ゼロトラストセキュリティ実装ガイド：BeyondCorpモデルで作る次世代認証基盤</h2>
                 <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #e53e3e">セキュリティ</span>
+                    <span class="category-badge" style="background-color: #f56565">セキュリティ</span>
                     <span class="difficulty-badge">上級</span>
                     <span class="reading-time">📖 30分</span>
                 </div>
             </div>
             <p class="meta">
-                📅 2025-06-28 21:44 | 
-                🏷️ セキュリティ, プライバシー, 認証, 暗号化
+                📅 2025-06-28 22:31 | 
+                🏷️ ゼロトラスト, BeyondCorp, 認証, アクセス制御
             </p>
-            <div class="preview">実際のプロジェクトで即座に活用できる実践的な知識をお伝えします。サンプルコードと詳細な解説付き。</div>
-            <a href="articles/article_1751114645.html" class="read-more">
+            <div class="preview">難易度: 上級 | 読了時間: 約30分 | 制作時間: 0.0秒 最近の技術動向を分析していて、ゼロトラストに関する以下の重要な変化に気づきました： - GitHub上でゼロトラスト関連のリポジトリのスター数が急増</div>
+            <a href="articles/article_1751117475.html" class="read-more">
+                続きを読む →
+            </a>
+        </article>
+        <article class="article" data-category="セキュリティ">
+            <div class="article-header-info">
+                <h2>ゼロトラストセキュリティ実装ガイド：BeyondCorpモデルで作る次世代認証基盤</h2>
+                <div class="article-meta-tags">
+                    <span class="category-badge" style="background-color: #f56565">セキュリティ</span>
+                    <span class="difficulty-badge">上級</span>
+                    <span class="reading-time">📖 30分</span>
+                </div>
+            </div>
+            <p class="meta">
+                📅 2025-06-28 22:19 | 
+                🏷️ ゼロトラスト, BeyondCorp, 認証, アクセス制御
+            </p>
+            <div class="preview">難易度: 上級 | 読了時間: 約30分 | 制作時間: 0.0秒 最近の技術動向を分析していて、ゼロトラストに関する以下の重要な変化に気づきました： - GitHub上でゼロトラスト関連のリポジトリのスター数が急増</div>
+            <a href="articles/article_1751116762.html" class="read-more">
+                続きを読む →
+            </a>
+        </article>
+        <article class="article" data-category="ai_development">
+            <div class="article-header-info">
+                <h2>【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較</h2>
+                <div class="article-meta-tags">
+                    <span class="category-badge" style="background-color: #718096">ai_development</span>
+                    <span class="difficulty-badge">中級</span>
+                    <span class="reading-time">📖 20分</span>
+                </div>
+            </div>
+            <p class="meta">
+                📅 2025-06-28 22:10 | 
+                🏷️ AutoGen, LangChain, マルチエージェント, 自律型AI
+            </p>
+            <div class="preview">難易度: 中級 | 読了時間: 約20分 | 制作時間: 0.02秒 最近の技術動向を分析していて、AutoGenに関する以下の重要な変化に気づきました： - GitHub上でAutoGen関連のリポジトリのスター数が急増</div>
+            <a href="articles/article_1751116253.html" class="read-more">
                 続きを読む →
             </a>
         </article>
@@ -180,65 +269,18 @@
                 </div>
             </div>
             <p class="meta">
-                📅 2025-06-28 22:37 | 
+                📅 2025-06-28 20:58 | 
                 🏷️ Web, フロントエンド, バックエンド, API
             </p>
-            <div class="preview">本記事では、最新の技術トレンドを踏まえながら、実践的な実装方法を詳しく解説します。初心者から上級者まで、すべての開発者に役立つ内容です。</div>
-            <a href="articles/article_1751117832.html" class="read-more">
-                続きを読む →
-            </a>
-        </article>
-        <article class="article" data-category="ai開発">
-            <div class="article-header-info">
-                <h2>【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較</h2>
-                <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #667eea">AI開発</span>
-                    <span class="difficulty-badge">中級</span>
-                    <span class="reading-time">📖 8分</span>
-                </div>
-            </div>
-            <p class="meta">
-                📅 2025-06-28 20:02 | 
-                🏷️ AI, 機械学習, 深層学習, 開発
-            </p>
-            <div class="preview">実際のプロジェクトで即座に活用できる実践的な知識をお伝えします。サンプルコードと詳細な解説付き。</div>
-            <a href="articles/article_1751108540.html" class="read-more">
-                続きを読む →
-            </a>
-        </article>
-        <article class="article" data-category="インフラ">
-            <div class="article-header-info">
-                <h2>Kubernetes×GitOps実践:ArgoCDとFluxで実現する完全自動化インフラ</h2>
-                <div class="article-meta-tags">
-                    <span class="category-badge" style="background-color: #ed8936">インフラ</span>
-                    <span class="difficulty-badge">上級</span>
-                    <span class="reading-time">📖 35分</span>
-                </div>
-            </div>
-            <p class="meta">
-                📅 2025-06-29 01:03 | 
-                🏷️ クラウド, DevOps, インフラ, 自動化
-            </p>
-            <div class="preview">実際のプロジェクトで即座に活用できる実践的な知識をお伝えします。サンプルコードと詳細な解説付き。</div>
-            <a href="articles/article_1751126580.html" class="read-more">
+            <div class="preview">最近、技術系のコミュニティやソーシャルメディアを観察していて、Next.jsに関する議論が活発になっていることに気づきました。 このサイトでNext.js関連の投稿を見ていたところ、多くの開発者がReactとの連携方法について悩んでいることがわかりました。</div>
+            <a href="articles/article_1751111909.html" class="read-more">
                 続きを読む →
             </a>
         </article>
         </section>
     </div>
     
-    <!-- ページネーション -->
-    <div class="pagination">
-        <button class="page-btn" onclick="previousPage()">← 前へ</button>
-        <span class="page-numbers">
-            <button class="page-num active" onclick="goToPage(1)">1</button>
-            <button class="page-num" onclick="goToPage(2)">2</button>
-            <button class="page-num" onclick="goToPage(3)">3</button>
-            <span>...</span>
-            <button class="page-num" onclick="goToPage(2)">2</button>
-        </span>
-        <button class="page-btn" onclick="nextPage()">次へ →</button>
-    </div>
+    <div class="pagination"><button class="page-btn" disabled>← 前へ</button><span class="page-numbers"><span class="page-num active">1</span><a href="page_2.html" class="page-num">2</a><a href="page_2.html" class="page-num">2</a></span><a href="page_2.html" class="page-btn">次へ →</a></div>
     
     <footer>
         <p>© 2025 Alic AI Blog - Powered by AI Agents</p>
@@ -273,42 +315,6 @@
                     }
                 }
             });
-        }
-        
-        // ページネーション機能（仮実装）
-        let currentPage = 1;
-        const articlesPerPage = 5;
-        
-        function goToPage(page) {
-            currentPage = page;
-            updatePageDisplay();
-        }
-        
-        function nextPage() {
-            currentPage++;
-            updatePageDisplay();
-        }
-        
-        function previousPage() {
-            if (currentPage > 1) {
-                currentPage--;
-                updatePageDisplay();
-            }
-        }
-        
-        function updatePageDisplay() {
-            // ページ番号のアクティブ状態を更新
-            const pageNums = document.querySelectorAll('.page-num');
-            pageNums.forEach(num => {
-                if (parseInt(num.textContent) === currentPage) {
-                    num.classList.add('active');
-                } else {
-                    num.classList.remove('active');
-                }
-            });
-            
-            // 実際のページネーション実装はここに追加
-            console.log('Current page:', currentPage);
         }
         
         // 自動リロード
