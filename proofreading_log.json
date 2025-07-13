@@ -7991,6 +7991,72 @@
       "corrections": [],
       "final_score": 59,
       "auto_corrected": false
+    },
+    {
+      "article_id": "article_1752395832",
+      "timestamp": "2025-07-13T17:37:12.277851+09:00",
+      "original_score": 80,
+      "issues_found": [
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 1",
+          "original": "---\ntitle: 【2025年最新】AIエージェントが変える開発現場 - AutoGenとLan...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 2",
+          "original": "それぞれが異なる視点で価値ある情報を提供しています：\n\n### 🌟 メインリファレンス\n- **[A...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 7",
+          "original": "\n\n### 技術選択の背景\n\n1. **市場のニーズ**\n   - ユーザー体験の向上への要求\n  ...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 10",
+          "original": "\n\n---\n\n## 📊 この記事の制作情報\n\n- **制作時間**: 0.0秒\n- **総文字数**...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 11",
+          "original": "*\n\n\n---\n\n### ✍️ ライター紹介\n\n**佐藤アキラ（アキラ先輩）** 😎\n\n得意分野：W...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "missing_term_explanation",
+          "severity": "medium",
+          "location": "マイクロサービス",
+          "original": "マイクロサービス",
+          "suggestion": "マイクロサービスの説明を追加",
+          "auto_correctable": false
+        },
+        {
+          "type": "missing_term_explanation",
+          "severity": "medium",
+          "location": "非同期処理",
+          "original": "非同期処理",
+          "suggestion": "非同期処理の説明を追加",
+          "auto_correctable": false
+        }
+      ],
+      "corrections": [],
+      "final_score": 80,
+      "auto_corrected": false
     }
   ],
   "common_issues": {},
