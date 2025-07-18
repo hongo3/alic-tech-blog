@@ -37847,6 +37847,144 @@
       "corrections": [],
       "final_score": 59,
       "auto_corrected": false
+    },
+    {
+      "article_id": "article_1752836579",
+      "timestamp": "2025-07-18T20:02:59.852103+09:00",
+      "original_score": 59,
+      "issues_found": [
+        {
+          "type": "unused_variable",
+          "severity": "low",
+          "location": "Code block 4",
+          "original": "auto_bind",
+          "suggestion": "未使用の変数 auto_bind",
+          "auto_correctable": false
+        },
+        {
+          "type": "unused_variable",
+          "severity": "low",
+          "location": "Code block 4",
+          "original": "search_base",
+          "suggestion": "未使用の変数 search_base",
+          "auto_correctable": false
+        },
+        {
+          "type": "unused_variable",
+          "severity": "low",
+          "location": "Code block 4",
+          "original": "search_filter",
+          "suggestion": "未使用の変数 search_filter",
+          "auto_correctable": false
+        },
+        {
+          "type": "unused_variable",
+          "severity": "low",
+          "location": "Code block 4",
+          "original": "issuer_name",
+          "suggestion": "未使用の変数 issuer_name",
+          "auto_correctable": false
+        },
+        {
+          "type": "outdated_reference",
+          "severity": "low",
+          "location": "2011年",
+          "original": "2011",
+          "suggestion": "Consider updating to more recent information",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 1",
+          "original": "---\ntitle: ゼロトラストセキュリティ実装ガイド：BeyondCorpモデルで作る次世代認証...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 2",
+          "original": "それぞれが異なる視点で価値ある情報を提供しています：\n\n### 🌟 メインリファレンス\n- **[ゼ...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 7",
+          "original": "\n\n### 現代のセキュリティ課題\n\n1. **リモートワークの常態化**\n   - 従業員の70%...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 9",
+          "original": "\n\n```python\n# ゼロトラストの基本原則を実装したPythonクラス\nclass Zero...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 11",
+          "original": "\n\n#### BeyondCorpの主要コンポーネント\n\n1. **Device Inventory...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 15",
+          "original": "\n\n### 次のステップ\n\n1. 現在のセキュリティ体制の評価\n2. パイロットプロジェクトの選定\n...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 17",
+          "original": "\n\n---\n\n## 📊 この記事の制作情報\n\n- **制作時間**: 0.0秒\n- **総文字数**...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "long_sentence",
+          "severity": "low",
+          "location": "Sentence 18",
+          "original": "*\n\n\n---\n\n### ✍️ ライター紹介\n\n**鈴木タクミ（タクミ）** 🔧\n\n得意分野：インフ...",
+          "suggestion": "文を分割して読みやすくする",
+          "auto_correctable": false
+        },
+        {
+          "type": "missing_term_explanation",
+          "severity": "medium",
+          "location": "DevOps",
+          "original": "DevOps",
+          "suggestion": "DevOpsの説明を追加",
+          "auto_correctable": false
+        },
+        {
+          "type": "missing_term_explanation",
+          "severity": "medium",
+          "location": "マイクロサービス",
+          "original": "マイクロサービス",
+          "suggestion": "マイクロサービスの説明を追加",
+          "auto_correctable": false
+        },
+        {
+          "type": "missing_installation_guide",
+          "severity": "medium",
+          "location": "セットアップセクション",
+          "original": "インストール手順なし",
+          "suggestion": "インストール手順を追加",
+          "auto_correctable": false
+        }
+      ],
+      "corrections": [],
+      "final_score": 59,
+      "auto_corrected": false
     }
   ],
   "common_issues": {},
