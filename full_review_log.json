@@ -15081,6 +15081,49 @@
         "improvement_rate": -6.273062730627299,
         "average_score": 76.2
       }
+    },
+    {
+      "timestamp": "2025-07-20T02:36:04.995058+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 80.2,
+          "rules_updated": false,
+          "improvement_suggestions": 1
+        },
+        "generation": {
+          "title": "Next.js 15完全攻略:App Router×Server Components×Streamingで作る爆速Webアプリ",
+          "category": "web_tech",
+          "initial_score": 90.0,
+          "improvements_applied": 0,
+          "character_count": 21399,
+          "production_time": 0.0
+        },
+        "proofreading": {
+          "original_score": 50,
+          "issues_found": 22,
+          "corrections_applied": 1,
+          "final_score": 53
+        }
+      },
+      "final_score": 71.5,
+      "published": true,
+      "writer": {
+        "name": "佐藤アキラ",
+        "nickname": "アキラ先輩",
+        "specialties": [
+          "Web開発",
+          "JavaScript/TypeScript",
+          "React",
+          "Next.js",
+          "フロントエンド"
+        ]
+      },
+      "quality_status": "rejected",
+      "quality_trend": {
+        "direction": "低下中 📉",
+        "improvement_rate": -5.4205607476635445,
+        "average_score": 75.9
+      }
     }
   ],
   "quality_trends": [],
