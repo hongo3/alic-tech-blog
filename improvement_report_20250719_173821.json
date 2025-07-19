@@ -1,0 +1,117 @@
+{
+  "timestamp": "2025-07-19T17:38:21.752262+09:00",
+  "articles_evaluated": 5,
+  "average_score": 85.0,
+  "rules_updated": false,
+  "rule_evaluation": {
+    "timestamp": "2025-07-19T17:38:21.752230+09:00",
+    "current_effectiveness": 85.0,
+    "suggested_updates": [],
+    "rationale": []
+  },
+  "recent_evaluations": [
+    {
+      "article_path": "posts/article_1752905026.md",
+      "timestamp": "2025-07-19T17:38:21.620925+09:00",
+      "metadata": {
+        "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較 by ユカリ博士",
+        "date": "2025-07-19 15:03",
+        "category": "ai_development",
+        "tags": "AutoGen, LangChain, マルチエージェント, 自律型AI",
+        "difficulty": "中級",
+        "reading_time": "20分",
+        "production_time": "0.0秒"
+      },
+      "scores": {
+        "technical_accuracy": 22.0,
+        "readability": 20.0,
+        "practicality": 20.0,
+        "originality": 23.0
+      },
+      "total_score": 85.0,
+      "strengths": [
+        "technical_accuracy: 優秀なスコア (22.0/25)",
+        "readability: 優秀なスコア (20.0/25)",
+        "practicality: 優秀なスコア (20.0/25)",
+        "originality: 優秀なスコア (23.0/25)",
+        "豊富なコード例",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [],
+      "improvement_suggestions": [
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1752910434.md",
+      "timestamp": "2025-07-19T17:38:21.622756+09:00",
+      "metadata": {
+        "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較 by ユカリ博士",
+        "date": "2025-07-19 16:33",
+        "category": "ai_development",
+        "tags": "AutoGen, LangChain, マルチエージェント, 自律型AI",
+        "difficulty": "中級",
+        "reading_time": "20分",
+        "production_time": "0.0秒"
+      },
+      "scores": {
+        "technical_accuracy": 22.0,
+        "readability": 20.0,
+        "practicality": 20.0,
+        "originality": 23.0
+      },
+      "total_score": 85.0,
+      "strengths": [
+        "technical_accuracy: 優秀なスコア (22.0/25)",
+        "readability: 優秀なスコア (20.0/25)",
+        "practicality: 優秀なスコア (20.0/25)",
+        "originality: 優秀なスコア (23.0/25)",
+        "豊富なコード例",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [],
+      "improvement_suggestions": [
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1752912222.md",
+      "timestamp": "2025-07-19T17:38:21.624554+09:00",
+      "metadata": {
+        "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較 by ユカリ博士",
+        "date": "2025-07-19 17:03",
+        "category": "ai_development",
+        "tags": "AutoGen, LangChain, マルチエージェント, 自律型AI",
+        "difficulty": "中級",
+        "reading_time": "20分",
+        "production_time": "0.0秒"
+      },
+      "scores": {
+        "technical_accuracy": 22.0,
+        "readability": 20.0,
+        "practicality": 20.0,
+        "originality": 23.0
+      },
+      "total_score": 85.0,
+      "strengths": [
+        "technical_accuracy: 優秀なスコア (22.0/25)",
+        "readability: 優秀なスコア (20.0/25)",
+        "practicality: 優秀なスコア (20.0/25)",
+        "originality: 優秀なスコア (23.0/25)",
+        "豊富なコード例",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [],
+      "improvement_suggestions": [
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    }
+  ],
+  "improvement_trends": {
+    "trend": "improving",
+    "improvement_rate": 2.1000000000000085,
+    "recent_average": 84.7,
+    "historical_average": 82.6,
+    "evaluation_count": 4760
+  }
+}
