@@ -15597,6 +15597,49 @@
         "improvement_rate": 3.5573122529644117,
         "average_score": 78.6
       }
+    },
+    {
+      "timestamp": "2025-07-20T08:36:25.058303+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 83.2,
+          "rules_updated": false,
+          "improvement_suggestions": 1
+        },
+        "generation": {
+          "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
+          "category": "ai_development",
+          "initial_score": 90.0,
+          "improvements_applied": 0,
+          "character_count": 17007,
+          "production_time": 0.0
+        },
+        "proofreading": {
+          "original_score": 80,
+          "issues_found": 7,
+          "corrections_applied": 0,
+          "final_score": 80
+        }
+      },
+      "final_score": 85.0,
+      "published": true,
+      "writer": {
+        "name": "田中ユカリ",
+        "nickname": "ユカリ博士",
+        "specialties": [
+          "AI/機械学習",
+          "Python",
+          "データサイエンス",
+          "深層学習",
+          "自然言語処理"
+        ]
+      },
+      "quality_status": "high_quality",
+      "quality_trend": {
+        "direction": "向上中 📈",
+        "improvement_rate": 6.885026737967922,
+        "average_score": 79.95
+      }
     }
   ],
   "quality_trends": [],
