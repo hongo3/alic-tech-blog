@@ -93986,6 +93986,49 @@
         "improvement_rate": 3.7558685446009354,
         "average_score": 77.35
       }
+    },
+    {
+      "timestamp": "2025-08-29T09:11:49.881351+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 80.2,
+          "rules_updated": false,
+          "improvement_suggestions": 1
+        },
+        "generation": {
+          "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
+          "category": "ai_development",
+          "initial_score": 90.0,
+          "improvements_applied": 0,
+          "character_count": 17007,
+          "production_time": 0.0
+        },
+        "proofreading": {
+          "original_score": 75,
+          "issues_found": 8,
+          "corrections_applied": 0,
+          "final_score": 75
+        }
+      },
+      "final_score": 82.5,
+      "published": true,
+      "writer": {
+        "name": "鈴木タクミ",
+        "nickname": "タクミ",
+        "specialties": [
+          "インフラ",
+          "DevOps",
+          "クラウド",
+          "セキュリティ",
+          "オールラウンド"
+        ]
+      },
+      "quality_status": "good",
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": 3.074866310160424,
+        "average_score": 77.1
+      }
     }
   ],
   "quality_trends": [],
