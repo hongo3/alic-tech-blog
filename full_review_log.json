@@ -109036,6 +109036,49 @@
         "improvement_rate": 4.674796747967483,
         "average_score": 77.25
       }
+    },
+    {
+      "timestamp": "2025-09-05T22:09:08.120309+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 80.2,
+          "rules_updated": false,
+          "improvement_suggestions": 1
+        },
+        "generation": {
+          "title": "ゼロトラストセキュリティ実装ガイド：BeyondCorpモデルで作る次世代認証基盤",
+          "category": "security",
+          "initial_score": 90.0,
+          "improvements_applied": 0,
+          "character_count": 37243,
+          "production_time": 0.0
+        },
+        "proofreading": {
+          "original_score": 59,
+          "issues_found": 16,
+          "corrections_applied": 0,
+          "final_score": 59
+        }
+      },
+      "final_score": 74.5,
+      "published": true,
+      "writer": {
+        "name": "鈴木タクミ",
+        "nickname": "タクミ",
+        "specialties": [
+          "インフラ",
+          "DevOps",
+          "クラウド",
+          "セキュリティ",
+          "オールラウンド"
+        ]
+      },
+      "quality_status": "rejected",
+      "quality_trend": {
+        "direction": "向上中 📈",
+        "improvement_rate": 5.08130081300813,
+        "average_score": 77.55
+      }
     }
   ],
   "quality_trends": [],
