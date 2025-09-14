@@ -126451,6 +126451,49 @@
         "improvement_rate": -4.174694926140013,
         "average_score": 74.6
       }
+    },
+    {
+      "timestamp": "2025-09-14T13:34:54.272674+09:00",
+      "phases": {
+        "evaluation": {
+          "average_score": 82.6,
+          "rules_updated": false,
+          "improvement_suggestions": 1
+        },
+        "generation": {
+          "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較",
+          "category": "ai_development",
+          "initial_score": 90.0,
+          "improvements_applied": 0,
+          "character_count": 17016,
+          "production_time": 0.0
+        },
+        "proofreading": {
+          "original_score": 80,
+          "issues_found": 7,
+          "corrections_applied": 0,
+          "final_score": 80
+        }
+      },
+      "final_score": 85.0,
+      "published": true,
+      "writer": {
+        "name": "佐藤アキラ",
+        "nickname": "アキラ先輩",
+        "specialties": [
+          "Web開発",
+          "JavaScript/TypeScript",
+          "React",
+          "Next.js",
+          "フロントエンド"
+        ]
+      },
+      "quality_status": "high_quality",
+      "quality_trend": {
+        "direction": "安定 ➡️",
+        "improvement_rate": -2.0631850419084388,
+        "average_score": 75.95
+      }
     }
   ],
   "quality_trends": [],
