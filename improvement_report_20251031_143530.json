@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-10-31T14:35:30.465311+09:00",
+  "articles_evaluated": 5,
+  "average_score": 79.6,
+  "rules_updated": false,
+  "rule_evaluation": {
+    "timestamp": "2025-10-31T14:35:30.465275+09:00",
+    "current_effectiveness": 79.60000000000001,
+    "suggested_updates": [],
+    "rationale": []
+  },
+  "recent_evaluations": [
+    {
+      "article_path": "posts/article_1761885489.md",
+      "timestamp": "2025-10-31T14:35:29.680180+09:00",
+      "metadata": {
+        "title": "[ボツ記事] Next.js 15完全攻略:App Router×Server Components×Streamingで作る爆速Webアプリ by アキラ先輩",
+        "date": "2025-10-31 13:38",
+        "category": "web_tech",
+        "tags": "Next.js, React, Server Components, App Router",
+        "difficulty": "中級",
+        "reading_time": "25分",
+        "production_time": "0.0秒"
+      },
+      "scores": {
+        "technical_accuracy": 16.0,
+        "readability": 23.0,
+        "practicality": 17.0,
+        "originality": 20.0
+      },
+      "total_score": 76.0,
+      "strengths": [
+        "readability: 優秀なスコア (23.0/25)",
+        "originality: 優秀なスコア (20.0/25)",
+        "豊富なコード例",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [],
+      "improvement_suggestions": [
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1761845714.md",
+      "timestamp": "2025-10-31T14:35:29.682483+09:00",
+      "metadata": {
+        "title": "[ボツ記事] Next.js 15完全攻略:App Router×Server Components×Streamingで作る爆速Webアプリ by アキラ先輩",
+        "date": "2025-10-31 02:35",
+        "category": "web_tech",
+        "tags": "Next.js, React, Server Components, App Router",
+        "difficulty": "中級",
+        "reading_time": "25分",
+        "production_time": "0.0秒"
+      },
+      "scores": {
+        "technical_accuracy": 16.0,
+        "readability": 23.0,
+        "practicality": 17.0,
+        "originality": 20.0
+      },
+      "total_score": 76.0,
+      "strengths": [
+        "readability: 優秀なスコア (23.0/25)",
+        "originality: 優秀なスコア (20.0/25)",
+        "豊富なコード例",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [],
+      "improvement_suggestions": [
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    },
+    {
+      "article_path": "posts/article_1761858173.md",
+      "timestamp": "2025-10-31T14:35:29.684350+09:00",
+      "metadata": {
+        "title": "【2025年最新】AIエージェントが変える開発現場 - AutoGenとLangChainの実践比較 by ユカリ博士",
+        "date": "2025-10-31 06:02",
+        "category": "ai_development",
+        "tags": "AutoGen, LangChain, マルチエージェント, 自律型AI",
+        "difficulty": "中級",
+        "reading_time": "20分",
+        "production_time": "0.0秒"
+      },
+      "scores": {
+        "technical_accuracy": 22.0,
+        "readability": 20.0,
+        "practicality": 20.0,
+        "originality": 23.0
+      },
+      "total_score": 85.0,
+      "strengths": [
+        "technical_accuracy: 優秀なスコア (22.0/25)",
+        "readability: 優秀なスコア (20.0/25)",
+        "practicality: 優秀なスコア (20.0/25)",
+        "originality: 優秀なスコア (23.0/25)",
+        "豊富なコード例",
+        "AIの思考プロセスが明確"
+      ],
+      "weaknesses": [],
+      "improvement_suggestions": [
+        "文章とコードのバランスを調整（目標: 70:30）"
+      ]
+    }
+  ],
+  "improvement_trends": {
+    "trend": "declining",
+    "improvement_rate": -1.7999999999999972,
+    "recent_average": 80.2,
+    "historical_average": 82.0,
+    "evaluation_count": 28760
+  }
+}
